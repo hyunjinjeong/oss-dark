@@ -1,8 +1,8 @@
 {
-  "name": "GitHub-Dark",
-  "version": "4.2.163",
+  "name": "oss-dark",
+  "version": "1.0.0",
   "license": "BSD-2-Clause",
-  "repository": "StylishThemes/GitHub-Dark",
+  "repository": "hyunjinjeong/oss-dark",
   "private": true,
   "engines": {
     "node": ">=12"

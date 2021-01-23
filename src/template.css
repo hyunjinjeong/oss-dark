@@ -1,11 +1,11 @@
 /* ==UserStyle==
-@name        GitHub Dark
-@namespace   StylishThemes
+@name        OSS Dark
+@namespace   hyunjinjeong
 @version     {{version}}
-@homepageURL https://github.com/StylishThemes/GitHub-Dark
-@updateURL   https://stylishthemes.github.io/GitHub-Dark/github-dark.user.css
+@homepageURL https://github.com/hyunjinjeong/oss-dark
+@updateURL   https://raw.githubusercontent.com/hyunjinjeong/oss-dark/master/oss-dark.user.css
 @license     BSD-2-Clause
-@author      StylishThemes
+@author      hyunjinjeong
 @advanced color base-color "Base color" #4f8cc9
 @advanced color bg-color "Background Color" #202020
 @advanced dropdown bg-choice "Background" {

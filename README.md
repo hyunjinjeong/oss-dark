@@ -2,8 +2,8 @@
 
 [`Github Dark`](https://github.com/StylishThemes/GitHub-Dark)를 바탕으로 OSS에 다크 모드를 적용합니다.
 
-- [OSS Dark 설치](https://oss.navercorp.com/hyunjin-jeong/oss-dark/blob/master/oss-dark.user.css?raw=true)
-- [OSS Custom Fonts 설치](https://oss.navercorp.com/hyunjin-jeong/oss-dark/blob/master/oss-custom-fonts.user.css?raw=true)
+- [OSS Dark 설치](https://raw.githubusercontent.com/hyunjinjeong/oss-dark/master/oss-dark.user.css)
+- [OSS Custom Fonts 설치](https://raw.githubusercontent.com/hyunjinjeong/oss-dark/master/oss-custom-fonts.user.css)
 
 아래는 기존 `Github Dark`의 README 입니다.
 
