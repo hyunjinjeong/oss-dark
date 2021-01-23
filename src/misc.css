@@ -1,4 +1,4 @@
-@-moz-document regexp("^https?://github\.com/features/(security|actions)") {
+@-moz-document regexp("^https?://oss.navercorp\.com/features/(security|actions)") {
   img[src*="security-vulnerability.svg"],
   img[src*="security-vulnerability-alert.svg"], img[src*="security-policy.svg"],
   img[src*="security-workspace-bg.svg"],

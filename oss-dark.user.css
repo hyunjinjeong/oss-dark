@@ -179,7 +179,7 @@
   } EOT;
 }
 ==/UserStyle== */
-@-moz-document regexp("^https?://((education|graphql|guides|raw|resources|status|developer|support|vscode-auth)\\.)?github\\.com/((?!(sponsors)).)*$"), domain("githubusercontent.com"), domain("www.githubstatus.com") {
+@-moz-document regexp("^https?://((education|gist|graphql|guides|raw|resources|status|developer|support|vscode-auth)\\.)?oss.navercorp\\.com/((?!(sponsors)).)*$") {
   button {
     color: #b5b5b5;
   }
@@ -9510,7 +9510,7 @@
     background: #333 !important;
   }
 }
-@-moz-document regexp("^https?://((education|gist|graphql|guides|raw|resources|status|developer|support|vscode-auth)\\.)?github\\.com/((?!(sponsors)).)*$"), domain("githubusercontent.com"), domain("www.githubstatus.com") {
+@-moz-document regexp("^https?://((education|gist|graphql|guides|raw|resources|status|developer|support|vscode-auth)\\.)?oss.navercorp\\.com/((?!(sponsors)).)*$") {
   /*[[syntax-theme]]*//*[[syntax-jupyter]]*/
   /* inline code - big blocks */
   .highlight {
@@ -9533,7 +9533,7 @@
     color: var(--ghd-code-color) !important;
   }
 }
-@-moz-document regexp("^https?://((education|gist|graphql|guides|raw|resources|status|developer|support|vscode-auth)\\.)?github\\.com/((?!(sponsors)).)*$"), domain("githubusercontent.com"), domain("www.githubstatus.com") {
+@-moz-document regexp("^https?://((education|gist|graphql|guides|raw|resources|status|developer|support|vscode-auth)\\.)?oss.navercorp\\.com/((?!(sponsors)).)*$") {
   .CodeMirror {
     background-color: var(--ghd-code-background) !important;
     color: var(--ghd-code-color) !important;
@@ -9580,7 +9580,7 @@
   }
   /*[[syntax-codemirror]]*/
 }
-@-moz-document domain("developer.github.com") {
+@-moz-document regexp("^https?://((education|gist|graphql|guides|raw|resources|status|developer|support|vscode-auth)\\.)?oss.navercorp\\.com/((?!(sponsors)).)*$") {
   /* begin developer.github.com rules */
   a {
     background-color: transparent;
@@ -11556,7 +11556,7 @@
     background-color: var(--ghd-bg-color) !important;
   }
 }
-@-moz-document domain("docs.github.com") {
+@-moz-document domain("docs.oss.navercorp.com") {
   /* begin docs.github.com rules */
   a {
     background-color: transparent;
@@ -13519,7 +13519,7 @@
     filter: invert(100%) hue-rotate(180deg);
   }
 }
-@-moz-document regexp("^https?://((education|graphql|guides|raw|resources|status|developer|support|vscode-auth)\\.)?github\\.com/((?!(sponsors)).)*$"), domain("gist.github.com") {
+@-moz-document regexp("^https?://((education|graphql|guides|raw|resources|status|developer|support|vscode-auth)\\.)?oss.navercorp\\.com/((?!(sponsors)).)*$"), domain("gist.oss.navercorp.com") {
   /* begin refined-github rules */
   html.refined-github {
     --github-green: var(--color-text-success, #484);
@@ -22846,7 +22846,7 @@
     background-color: #ffcc0050 !important;
   }
 }
-@-moz-document domain("gist.github.com") {
+@-moz-document domain("gist.oss.navercorp.com") {
   /* begin gist.github.com rules */
   a {
     background-color: transparent;
@@ -26431,7 +26431,7 @@
     background: linear-gradient(to bottom, #181818, transparent) !important;
   }
 }
-@-moz-document domain("graphql.github.com") {
+@-moz-document domain("graphql.oss.navercorp.com") {
   /* begin graphql.github.com rules */
   .graphiql-container, .graphiql-container button, .graphiql-container input {
     color: #dcdcdc;
@@ -28550,7 +28550,7 @@
     border-color: #444;
   }
 }
-@-moz-document regexp("^https?://github\.com/features/(security|actions)") {
+@-moz-document regexp("^https?://oss.navercorp\.com/features/(security|actions)") {
   img[src*="security-vulnerability.svg"],
   img[src*="security-vulnerability-alert.svg"], img[src*="security-policy.svg"],
   img[src*="security-workspace-bg.svg"],
@@ -28742,7 +28742,7 @@
     margin: -1px !important;
   }
 }
-@-moz-document domain("render.githubusercontent.com") {
+@-moz-document domain("render.oss.navercorp.com") {
   /* begin render.githubusercontent.com rules */
   .slider .slider-track {
     border-top-color: var(--ghd-bg-color);
@@ -30755,7 +30755,7 @@
     background-image: url("data:image/gif;base64,R0lGODlhCgAKAIAAAOXl5f///yH5BAAAAAAALAAAAAAKAAoAAAIRhB2ZhxoM3GMSykqd1VltzxQAOw==") !important;
   }
 }
-@-moz-document domain("githubstatus.com") {
+@-moz-document domain("oss.navercorp.com") {
   /* begin githubstatus.com rules */
   ._2NFgh0Z6tkGorUToiId47k [class^="Content__ChildWrapper"] > [class^="Content"],
   ._3c5eahGieigDTmRHO-d7l3 [class^="Content__ChildWrapper"] > [class^="Content"] {
@@ -31789,7 +31789,7 @@
     background-color: initial;
   }
 }
-@-moz-document domain("support.github.com") {
+@-moz-document domain("support.oss.navercorp.com") {
   /* begin support.github.com rules */
   a {
     background-color: transparent;
@@ -33739,7 +33739,7 @@
     background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="%23bebebe" fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>') no-repeat 6px;
   }
 }
-@-moz-document domain("vscode-auth.github.com") {
+@-moz-document domain("vscode-auth.oss.navercorp.com") {
   /* begin vscode-auth.github.com rules */
   a {
     background-color: transparent;
@@ -34938,7 +34938,7 @@
     border-color: #343434;
   }
 }
-@-moz-document regexp("^https?://((education|graphql|gist|guides|raw|resources|status|developer|support|vscode-auth)\\.)?github\\.com/((?!(sponsors)).)*$"), regexp("^https?://www\.zuora\.com.*github\.com.*"), domain("githubusercontent.com"), domain("www.githubstatus.com"), domain("stylishthemes.github.io") {
+@-moz-document regexp("^https?://((education|graphql|gist|guides|raw|resources|status|developer|support|vscode-auth)\\.)?oss.navercorp\\.com/((?!(sponsors)).)*$") {
   :root:root {
   /* github dark vars */
     --ghd-bg-custom: /*[[bg-custom]]*/;
