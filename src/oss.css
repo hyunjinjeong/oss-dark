@@ -198,6 +198,13 @@
     color: var(--color-text-primary) !important;
   }
   /* 'Create a new project' page */
+  .table-list-header-toggle .btn-link.selected,
+  .table-list-header-toggle .btn-link.selected:hover {
+    color: var(--color-text-primary) !important;
+  }
+  .table-list-header-toggle .btn-link {
+    color: var(--color-text-secondary) !important;
+  }
   .pagehead-tabs-item {
     color: var(--color-text-secondary);
   }
@@ -271,5 +278,16 @@
   .select-menu-item[aria-selected=true]:hover {
     color: var(--color-state-hover-primary-text);
     background-color: var(--color-state-hover-primary-bg);
+  }
+  /* 'Create a new repo' page */
+  .reponame-suggestion {
+    color: var(--color-text-success);
+  }
+  .select-menu-text-filter:first-child:last-child {
+    border-bottom: 1px solid var(--color-select-menu-border-secondary);
+  }
+  .select-menu-text-filter input {
+    border: 1px solid var(--color-select-menu-border-secondary);
+    border-radius: 6px;
   }
 }
