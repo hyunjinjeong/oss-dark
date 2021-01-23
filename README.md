@@ -1,3 +1,9 @@
+# OSS Dark Theme
+
+[`Github Dark`](https://github.com/StylishThemes/GitHub-Dark)를 바탕으로 OSS에 다크 모드를 적용합니다.
+
+# Github Dark
+
 <p align="center">
   <img alt="githubdark-logo" src="https://cdn.jsdelivr.net/gh/StylishThemes/logos@master/github.dark/githubdark-mini.svg" width="580">
   <br>
