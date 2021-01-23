@@ -21152,6 +21152,9 @@
   .js-remaining-pinned-items-count {
     color: var(--color-text-danger);
   }
+  .Header-link {
+    color: var(--color-btn-text);
+  }
   /* timeline icons */
   .discussion-item-icon {
     color: var(--color-icon-secondary);
