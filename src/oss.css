@@ -197,4 +197,79 @@
   .jump-to-field-active, .jump-to-field-active::placeholder {
     color: var(--color-text-primary) !important;
   }
+  /* 'Create a new project' page */
+  .pagehead-tabs-item {
+    color: var(--color-text-secondary);
+  }
+  .pagehead-tabs-item:hover {
+    color: var(--color-text-primary);
+    text-decoration: none;
+  }
+  .pagehead-tabs-item.selected, .reponav-item.selected {
+    border-left: 1px solid var(--color-border-secondary);
+    border-right: 1px solid var(--color-border-secondary);
+    border-top-color: #fff;
+    color: var(--color-text-primary);
+  }
+  .pagehead-tabs-item .octicon {
+    color: var(--color-fade-black-30);
+  }
+  .pagehead-tabs-item .Counter {
+    color: var(--color-auto-gray-7);
+  }
+  .pagehead.orghead {
+    border-bottom: 1px solid var(--color-border-secondary);
+  }
+  .Subhead {
+    border-bottom: 1px solid var(--color-border-secondary);
+  }
+  .Subhead-description {
+    color: var(--color-text-secondary);
+  }
+  .dropdown-menu, .word-upload-callout, .select-menu-modal {
+    box-shadow: 0 3px 12px rgba(0, 0, 0, .4);
+  }
+  .select-menu-modal {
+    border-color: var(--color-border-overlay);
+    color: var(--color-text-primary);
+    background-color: var(--color-bg-overlay);
+    background-clip: padding-box;
+    border: 1px solid var(--color-border-overlay);
+    border-radius: 6px;
+  }
+  .select-menu-header, .select-menu-filters {
+    background: var(--color-bg-overlay);
+  }
+  .select-menu-divider, .select-menu-header {
+    border-bottom: 1px solid var(--color-select-menu-border-secondary);
+  }
+  .select-menu-divider, .select-menu-header .select-menu-title {
+    color: var(--color-text-primary);
+  }
+  .select-menu-item.selected, details-menu .select-menu-item[aria-checked=true],
+  details-menu .select-menu-item[aria-selected=true] {
+    color: var(--color-text-primary);
+  }
+  .select-menu-item {
+    background-color: var(--color-bg-overlay);
+    border-bottom: 1px solid var(--color-select-menu-border-secondary);
+  }
+  .select-menu-item.navigation-focus,
+  .select-menu-item.navigation-focus .description-inline,
+  .select-menu-item.navigation-focus.select-menu-action,
+  .select-menu-item.navigation-focus.selected,
+  .select-menu-item.navigation-focus[aria-checked=true], .select-menu-item:focus,
+  .select-menu-item:focus .description-inline,
+  .select-menu-item:focus.select-menu-action, .select-menu-item:focus.selected,
+  .select-menu-item:hover, .select-menu-item:hover .description-inline,
+  .select-menu-item:hover.select-menu-action, .select-menu-item:hover.selected,
+  .select-menu-item[aria-checked=true]:focus,
+  .select-menu-item[aria-checked=true]:hover,
+  .select-menu-item[aria-selected=true] .description-inline,
+  .select-menu-item[aria-selected=true].select-menu-action,
+  .select-menu-item[aria-selected=true]:focus,
+  .select-menu-item[aria-selected=true]:hover {
+    color: var(--color-state-hover-primary-text);
+    background-color: var(--color-state-hover-primary-bg);
+  }
 }
