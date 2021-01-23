@@ -73,7 +73,7 @@
   .gist-welcome h1 {
     color: var(--color-text-link);
   }
-  .input:placeholder, .form-control:placeholder {
+  .input::placeholder, .form-control::placeholder {
     color: var(--color-text-secondary);
   }
   .ais-SearchBox-input, .form-control, .form-select {

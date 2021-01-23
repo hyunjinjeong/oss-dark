@@ -24502,7 +24502,7 @@
   .gist-welcome h1 {
     color: var(--color-text-link);
   }
-  .input:placeholder, .form-control:placeholder {
+  .input::placeholder, .form-control::placeholder {
     color: var(--color-text-secondary);
   }
   .ais-SearchBox-input, .form-control, .form-select {
@@ -24950,6 +24950,9 @@
   .Header-link {
     color: var(--color-btn-text);
   }
+  .jump-to-suggestions-path .jump-to-octicon {
+    color: var(--color-text-tertiary);
+  }
   /* timeline icons */
   .discussion-item-icon {
     color: var(--color-icon-secondary);
@@ -25036,6 +25039,12 @@
     background-image: none;
     background-color: var(--color-btn-hover-bg);
     border-color: var(--color-btn-hover-border) !important;
+  }
+  .btn.disabled, .btn:disabled:hover, .btn[aria-disabled=true],
+  btn[aria-disabled=true]:hover {
+    color: var(--color-scale-gray-4) !important;
+    background: var(--color-bg-overlay) !important;
+    border-color: rgba(220, 220, 220, .15) !important;
   }
   .btn:active, .btn.selected, .btn[aria-selected=true] {
     background-color: var(--color-btn-selected-bg);
@@ -25165,8 +25174,11 @@
   .rounded-1 {
     border-radius: 6px !important;
   }
-  .jump-to-field-active, .jump-to-field-active::placeholder {
+  .jump-to-field-active {
     color: var(--color-text-primary) !important;
+  }
+  .header-search-input:focus {
+    box-shadow: none !important;
   }
   /* 'Create a new project' page */
   .table-list-header-toggle .btn-link.selected,
@@ -25274,12 +25286,150 @@
     color: inherit;
   }
   /* 레포 */
+  .page-new-repo .octicon-repo {
+    color: var(--color-text-tertiary);
+  }
   .select-menu-item-text .description {
     color: var(--color-text-secondary);
   }
   h1 a, h2 a, h3 a, h4 a {
     color: var(--color-text-link);
     text-decoration: none;
+  }
+  input::placeholder, textarea::placeholder {
+    color: var(--color-text-tertiary) !important;
+  }
+  input:focus::placeholder, textarea:focus::placeholder,
+  .focus input::placeholder, .focus textarea::placeholder,
+  .jump-to-field-active::placeholder {
+    color: var(--color-text-secondary) !important;
+  }
+  .Header .header-search-wrapper.focus {
+    box-shadow: none !important;
+  }
+  .header-search-wrapper, .header-search-wrapper.focus {
+    box-shadow: none;
+  }
+  .btn-primary.disabled, .btn-primary:disabled, .btn-primary[aria-disabled=true] {
+    color: hsla(0, 0%, 100%, .3) !important;
+  }
+  .btn-primary.disabled:hover, .btn-primary:disabled:hover,
+  .btn-primary[aria-disabled=true]:hover {
+    color: hsla(0, 0%, 100%, .3) !important;
+  }
+  .btn-blue:disabled, .btn-blue.disabled, .btn-blue[aria-disabled=true],
+  .btn-primary:disabled, .btn-primary.disabled, .btn-primary[aria-disabled=true] {
+    background-color: var(--color-btn-primary-disabled-bg) !important;
+    border-color: var(--color-btn-primary-disabled-border) !important;
+  }
+  .btn-blue:disabled:hover, .btn-blue.disabled:hover,
+  .btn-blue[aria-disabled=true]:hover, .btn-primary:disabled:hover,
+  .btn-primary.disabled:hover, .btn-primary[aria-disabled=true]:hover {
+    background-color: var(--color-btn-primary-disabled-bg) !important;
+    border-color: var(--color-btn-primary-disabled-border) !important;
+  }
+  .btn-secret.disabled, .btn-secret.disabled:hover, .btn-secret:disabled,
+  .btn-secret:disabled:hover {
+    color: var(--color-scale-gray-4) !important;
+    background: var(--color-bg-overlay) !important;
+    border-color: rgba(220, 220, 220, .15) !important;
+  }
+  .btn-danger {
+    color: var(--color-btn-danger-text) !important;
+  }
+  .btn-danger:hover, [open]>.btn-danger {
+    color: var(--color-btn-danger-hover-text) !important;
+    background-color: var(--color-btn-danger-hover-bg) !important;
+    border-color: var(--color-btn-danger-hover-border) !important;
+  }
+  .btn-danger:hover .octicon, [open]>.btn-danger .octicon {
+    color: var(--color-btn-danger-hover-icon) !important;
+  }
+  .btn-danger:active, .btn-danger.selected, .btn-danger[aria-selected=true] {
+    color: var(--color-btn-danger-selected-text) !important;
+    background-color: var(--color-btn-danger-selected-bg) !important;
+    border-color: var(--color-btn-danger-selected-border) !important;
+  }
+  .autocomplete-results {
+    background-color: var(--color-bg-overlay);
+    border: 1px solid var(--color-border-overlay);
+  }
+  .autocomplete-item {
+    color: var(--color-text-primary);
+    border: 1px solid var(--color-border-primary);
+    padding: 4px 8px;
+    border: 0;
+  }
+  .autocomplete-item:hover {
+    color: var(--color-state-hover-primary-text);
+    text-decoration: none;
+    background-color: var(--color-state-hover-primary-bg);
+  }
+  .Label--outline, .Label--gray {
+    color: var(--color-auto-gray-6);
+    border-color: var(--color-auto-gray-2);
+  }
+  .menu {
+    background-color: var(--color-bg-primary);
+    border: 1px solid var(--color-border-primary);
+  }
+  .menu-item {
+    color: var(--color-text-primary);
+    border-bottom: 1px solid var(--color-border-secondary);
+  }
+  .menu-item.selected {
+    color: var(--color-text-primary);
+  }
+  .menu-item:focus, .menu-item:hover {
+    text-decoration: none;
+    background-color: var(--color-state-hover-secondary-bg);
+    outline: none;
+  }
+  .menu-item:active {
+    background-color: var(--color-bg-secondary);
+  }
+  .flash .octicon {
+    color: var(--color-alert-info-icon);
+  }
+  .boxed-group>h3, .boxed-group .heading {
+    background-color: var(--color-bg-tertiary);
+    border: 1px solid var(--color-border-primary);
+    border-bottom: 0;
+  }
+  .blankslate {
+    background-color: var(--color-bg-primary) !important;
+    color: var(--color-text-secondary);
+  }
+  .access-form-wrapper {
+    color: var(--color-text-secondary);
+    border-top: 1px solid var(--color-border-secondary);
+  }
+  .select-menu-item.selected .description,
+  details-menu .select-menu-item[aria-checked=true] .description,
+  details-menu .select-menu-item[aria-selected=true] .description {
+    color: var(--color-text-secondary);
+  }
+  .boxed-group-inner {
+    border: 1px solid var(--color-border-primary);
+  }
+  .table-list-header {
+    background-color: var(--color-bg-tertiary);
+    border: 1px solid var(--color-border-primary);
+  }
+  .table-list-header-meta {
+    color: var(--color-text-secondary);
+  }
+  .collaborators .collab-info {
+    color: var(--color-text-primary);
+  }
+  .collaborators .collab-remove .remove-link {
+    color: var(--color-text-secondary);
+  }
+  .flash-close:hover {
+    opacity: .7;
+  }
+  .flash-close:active {
+    opacity: .5;
   }
 }
 @-moz-document domain("render.oss.navercorp.com"), domain("media.oss.navercorp.com") {
