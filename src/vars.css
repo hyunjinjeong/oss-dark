@@ -1,4 +1,4 @@
-@-moz-document regexp("^https?://((education|graphql|gist|guides|raw|resources|status|developer|support|vscode-auth)\\.)?oss.navercorp\\.com/((?!(sponsors)).)*$") {
+@-moz-document regexp("^https?://((assets|education|graphql|gist|guides|raw|resources|status|developer|support|vscode-auth)\\.)?oss.navercorp\\.com/((?!(sponsors)).)*$") {
   :root:root {
   /* github dark vars */
     --ghd-bg-custom: /*[[bg-custom]]*/;
