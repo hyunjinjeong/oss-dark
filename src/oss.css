@@ -5,6 +5,9 @@
       border: 1px solid var(--color-border-primary) !important;
     }
   }
+  .vcard-detail .octicon {
+    color: var(--color-text-tertiary);
+  }
   .UnderlineNav.width-full {
     border: transparent;
   }
@@ -102,28 +105,112 @@
   .profile-rollup-wrapper .css-truncate-target {
     color: /*[[base-color]]*/;
   }
+  .profile-rollup-wrapper .css-truncate-target:hover {
+    text-decoration: underline;
+  }
+  .task-progress {
+    color: var(--color-text-secondary);
+  }
+  .profile-timeline-card .issue-meta-section .octicon {
+    color: var(--color-text-secondary);
+  }
+  .block-diff-neutral {
+    background-color: var(--color-diffstat-neutral-bg) !important;
+    outline: 1px solid var(--color-diffstat-neutral-border) !important;
+  }
+  .block-diff-deleted {
+    background-color: var(--color-diffstat-deletion-bg) !important;
+    outline: 1px solid var(--color-diffstat-deletion-border) !important;
+  }
+  .block-diff-added {
+    background-color: var(--color-diffstat-addition-bg) !important;
+    outline: 1px solid var(--color-diffstat-addition-border) !important;
+  }
+  .block-diff-added, .block-diff-deleted, .block-diff-neutral {
+    outline-offset: -1px;
+  }
+  details .link-gray-dark:hover {
+    text-decoration: none;
+    color: var(--color-text-primary) !important;
+    background-color: var(--color-btn-hover-bg);
+    border-color: var(--color-btn-hover-border);
+    transition-duration: .1s;
+  }
+  details .link-gray-dark:active {
+    box-shadow: none;
+    background-color: var(--color-btn-selected-bg);
+    box-shadow: var(--color-shadow-inset);
+    transition: none;
+  }
+  .user-status-org-button.selected {
+    color: var(--color-text-primary);
+    background-color: transparent;
+  }
+  .user-status-org-button .user-status-org-detail {
+    color: var(--color-text-primary);
+  }
+  .user-status-org-button.selected .user-status-org-detail {
+    color: var(--color-text-primary);
+  }
+  .user-status-org-button:hover .user-status-org-detail {
+    color: var(--color-state-hover-primary-text);
+  }
+  .vcard-username {
+    color: var(--color-text-secondary);
+  }
+  .link-gray:hover .text-gray {
+    color: rgb(79, 140, 201) !important;
+  }
   /* buttons */
   .btn {
     color: var(--color-btn-text);
-    background: var(--color-btn-bg);
+    background-image: none;
+    background-color: var(--color-btn-bg);
+    border-color: var(--color-btn-border) !important;
   }
   .btn:hover, .btn.hover, [open]>.btn {
-    background: var(--color-btn-hover-bg);
-    border-color: var(--color-btn-hover-border);
+    background-image: none;
+    background-color: var(--color-btn-hover-bg);
+    border-color: var(--color-btn-hover-border) !important;
+  }
+  .btn:active, .btn.selected, .btn[aria-selected=true] {
+    background-color: var(--color-btn-selected-bg);
+    transition: none;
+  }
+  .btn-outline:hover, [open]>.btn-outline {
+    color: var(--color-btn-outline-hover-text) !important;
+    background-color: var(--color-btn-outline-hover-bg) !important;
+    border-color: var(--color-btn-outline-hover-border) !important;
+    box-shadow: var(--color-btn-outline-hover-shadow),
+                    var(--color-btn-outline-hover-inset-shadow) !important;
+  }
+  .btn-outline:active, .btn-outline.selected, .btn-outline[aria-selected=true] {
+    color: var(--color-btn-outline-selected-text) !important;
+    background-color: var(--color-btn-outline-selected-bg) !important;
+    border-color: var(--color-btn-outline-selected-border) !important;
+  }
+  .btn-outline:hover .octicon, [open]>.btn-outline .octicon {
+    color: inherit;
   }
   .btn-blue, .btn-primary {
+    background-image: none;
     color: var(--color-btn-primary-text);
-    background: var(--color-btn-primary-bg);
+    background-color: var(--color-btn-primary-bg);
     border-color: var(--color-btn-primary-border);
   }
   .btn-blue:hover, .btn-blue.hover, [open]>.btn-blue, .btn-primary:hover,
   .btn-primary.hover, [open]>.btn-primary {
-    background: var(--color-btn-primary-hover-bg);
+    background-color: var(--color-btn-primary-hover-bg);
     border-color: var(--color-btn-primary-hover-border);
+  }
+  .btn-blue:active, .btn-blue.selected, .btn-blue[aria-selected=true],
+  .btn-primary:active, .btn-primary.selected, .btn-primary[aria-selected=true] {
+    background-color: var(--color-btn-primary-selected-bg);
   }
   .ajax-pagination-form .ajax-pagination-btn {
     color: var(--color-text-link);
-    background: var(--color-bg-primary);
+    background-image: none;
+    background-color: var(--color-bg-primary);
     border: 1px solid var(--color-border-primary);
     margin-top: 20px !important;
   }
@@ -132,6 +219,15 @@
     color: var(--color-text-link);
     background-color: var(--color-bg-tertiary);
   }
+  input.focus[type="text"], #adv_code_search .focus.search-page-label,
+  .focused .drag-and-drop, #adv_code_search .search-page-label:focus,
+  #q:focus ~ button, input.color-editor-input:focus, #ghd-settings select:focus,
+  #ghd-settings input:focus, .intgrs-lstng-item:hover,
+  .ajax-pagination-btn:focus, input[type="checkbox"]:focus,
+  div.search-form input:focus, #search > input[name="q"]:focus {
+    border-color: rgb(79, 140, 201) !important;
+    outline-color: rgb(79, 140, 201) !important;
+  }
   .flash {
     color: var(--color-alert-info-text);
     background-image: linear-gradient(var(--color-alert-info-bg), var(--color-alert-info-bg));
@@ -139,6 +235,12 @@
   }
   .issues-reset-query {
     color: var(--color-text-secondary);
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+    color: var(--color-state-hover-primary-text);
+    text-decoration: none;
+    background-color: var(--color-state-hover-primary-bg);
+    outline: none;
   }
   /* select menu modal */
   .SelectMenu-modal {
@@ -176,7 +278,7 @@
     border-bottom: 1px solid var(--color-border-overlay);
   }
   .ais-SearchBox-input, .form-control, .form-select {
-    color: #fff;
+    color: var(--color-text-primary);
   }
   .header-search-wrapper {
     color: var(--color-text-white);
@@ -294,5 +396,25 @@
   .select-menu-text-filter input {
     border: 1px solid var(--color-select-menu-border-secondary);
     border-radius: 6px;
+  }
+  .link-gray, .Link--secondary {
+    color: var(--color-text-secondary) !important;
+  }
+  .table-list-header-toggle .select-menu-button:hover,
+  .table-list-header-toggle .select-menu-button.selected,
+  .table-list-header-toggle .select-menu-button.selected:hover,
+  .table-list-header-toggle .btn-link:hover {
+    color: var(--color-text-primary) !important;
+  }
+  .btn-primary .octicon {
+    color: inherit;
+  }
+  /* 레포 */
+  .select-menu-item-text .description {
+    color: var(--color-text-secondary);
+  }
+  h1 a, h2 a, h3 a, h4 a {
+    color: var(--color-text-link);
+    text-decoration: none;
   }
 }

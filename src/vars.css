@@ -58,7 +58,9 @@
     --color-btn-bg-hover: #222;
     --color-btn-bg: #181818;
     --color-btn-border: #343434;
+    --color-btn-danger-selected-bg: #d42d3d;
     --color-btn-danger-hover-text: #fff;
+    --color-btn-danger-hover-icon: #181818;
     --color-btn-danger-selected-text: #fff;
     --color-btn-danger-shadow: none;
     --color-btn-hover-bg: #222;

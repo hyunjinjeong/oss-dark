@@ -1,4 +1,4 @@
-@-moz-document regexp("^https?://((education|gist|graphql|guides|raw|resources|status|developer|support|vscode-auth)\\.)?oss.navercorp\\.com/((?!(sponsors)).)*$") {
+@-moz-document regexp("^https?://((render|media|education|gist|graphql|guides|raw|resources|status|developer|support|vscode-auth)\\.)?oss.navercorp\\.com/((?!(sponsors)).)*$") {
   /*[[syntax-theme]]*//*[[syntax-jupyter]]*/
   /* inline code - big blocks */
   .highlight {
@@ -19,5 +19,8 @@
   }
   .blob-code, .blob-code-inner {
     color: var(--ghd-code-color) !important;
+  }
+  div.input_prompt {
+    color: hsla(234, 100%, 65%, 1) !important;
   }
 }

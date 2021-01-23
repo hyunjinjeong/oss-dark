@@ -870,6 +870,9 @@
   }
   .pagination a, .pagination em, .pagination span {
     transition: none !important;
+    background-color: transparent;
+    color: var(--color-text-primary);
+    border: 1px solid transparent;
   }
   /* add background to discussions sidebar box */
   .repository-content > .js-check-all-container .d-none.d-lg-block > .border {
@@ -1481,7 +1484,8 @@
   .timeline-comment.current-user:not(.is-internal) .timeline-comment-header .text-gray,
   .timeline-comment.current-user:not(.is-internal) .timeline-comment-header .Link--secondary,
   .timeline-comment.current-user:not(.is-internal) .timeline-comment-header-text code a {
-    color: #9daccc !important;
+  /* color: #9daccc !important; */
+    color: var(--color-text-secondary) !important;
   }
   .timeline-comment.current-user:not(.is-internal) .timeline-comment-header,
   .timeline-comment.current-user:not(.is-internal) .timeline-comment-action,
@@ -1834,9 +1838,6 @@
   .previewable-comment-form,
   .previewable-comment-form .tabnav-tab[aria-selected="true"] {
     background: var(--ghd-main-background) !important;
-  }
-  .previewable-comment-form .comment-form-head.tabnav {
-    background: var(--ghd-bg-color) !important;
   }
   /* GitHub Enterprise (GHE) stuff */
   body.enterprise .repohead.experiment-repo-nav {
