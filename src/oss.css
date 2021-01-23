@@ -1,5 +1,10 @@
 @-moz-document regexp("^https?://((education|gist|graphql|guides|raw|resources|status|developer|support|vscode-auth)\\.)?oss.navercorp\\.com/((?!(sponsors)).)*$") {
   /* 프로필 페이지 */
+  @media (min-width: 768px) {
+    .avatar-before-user-status {
+      border: 1px solid var(--color-border-primary) !important;
+    }
+  }
   .UnderlineNav.width-full {
     border: transparent;
   }
