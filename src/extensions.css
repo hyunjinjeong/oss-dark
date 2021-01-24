@@ -36,6 +36,17 @@
     border-color: #343434 !important;
   }
   /* ZenHub */
+  .zh-login-status {
+    border-color: #343434 !important;
+  }
+  .zh-login-status__sign-in-button {
+    background: #181818 !important;
+    border-color: #484848 !important;
+    color: #bebebe !important;
+  }
+  .zh-login-status__logo {
+    color: #c6c6c6 !important;
+  }
   body.zh_logged_in .zh-login-status {
     background: #181818 !important;
     border-color: #484848 !important;
@@ -79,6 +90,9 @@
   }
   body.zh_logged_in .zhc-info-alert img {
     filter: invert(96%) hue-rotate(180deg);
+  }
+  body.zh_logged_in .disabled {
+    background-color: transparent;
   }
   /* move expanded zenhub board toolbar when octotree exists
    * see https://github.com/buunguyen/octotree/issues/242 */

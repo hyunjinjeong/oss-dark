@@ -10,6 +10,9 @@
     --ghd-code-color: #ccc;
     --ghd-body-color: #ccc;
   /* github vars */
+    --color-alert-warn-bg: #261d08;
+    --color-alert-warn-text: #c6c6c6;
+    --color-alert-warn-border: #b08800;
     --color-ansi-black-bright: #282828;
     --color-ansi-black: #181818;
     --color-ansi-blue-bright: #c8e1ff;
@@ -149,7 +152,7 @@
     --color-text-secondary: #afafaf;
     --color-text-tertiary: #9b9b9b;
     --color-text-white: #fff;
-    --color-timeline-badge-bg: #383838;
+    --color-timeline-badge-bg: #e7f3ff;
     --color-tooltip-text: #c6c6c6;
     --color-underlinenav-counter-text: #c6c6c6;
     --color-underlinenav-icon: #afafaf;

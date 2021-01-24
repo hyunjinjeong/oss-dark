@@ -202,7 +202,6 @@
   .drag-and-drop {
     color: var(--color-text-secondary);
     background-color: var(--color-bg-secondary);
-    border: 1px solid var(--color-border-primary);
     border-top: 0;
     border-bottom-right-radius: 6px;
     border-bottom-left-radius: 6px;

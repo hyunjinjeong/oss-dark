@@ -1022,7 +1022,8 @@
   .team-left-column, .render-container.js-actions-page,
   .deployments-timeline-icon, .TimelineItem--condensed .TimelineItem-badge,
   .notification-navigation, .check-annotation code pre,
-  .merge-status-item > [style*="#fff"], .pagehead, .pagehead nav {
+  .merge-status-item > [style*="#fff"], .pagehead, .pagehead nav,
+  .project-columns, .project-header {
     background: none !important;
   }
   @media (min-width: 1012px) {
@@ -1484,8 +1485,7 @@
   .timeline-comment.current-user:not(.is-internal) .timeline-comment-header .text-gray,
   .timeline-comment.current-user:not(.is-internal) .timeline-comment-header .Link--secondary,
   .timeline-comment.current-user:not(.is-internal) .timeline-comment-header-text code a {
-  /* color: #9daccc !important; */
-    color: var(--color-text-secondary) !important;
+    color: #9daccc !important;
   }
   .timeline-comment.current-user:not(.is-internal) .timeline-comment-header,
   .timeline-comment.current-user:not(.is-internal) .timeline-comment-action,
