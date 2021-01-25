@@ -148,4 +148,8 @@
   table > tbody > tr > td[style="background-color: khaki;"] {
     background-color: #ffcc0050 !important;
   }
+  /* Zenhub custom */
+  .zhc-dependency {
+    border-color: #343434;
+  }
 }
