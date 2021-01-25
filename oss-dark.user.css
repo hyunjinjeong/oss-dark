@@ -26696,6 +26696,18 @@
     border-color: var(--color-auto-blue-4);
     box-shadow: 0 0 0 .2em var(--color-auto-blue-2);
   }
+  table.files td .simplified-path {
+    color: var(--color-text-tertiary);
+  }
+  table.files tr.up-tree a:hover {
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .form-group.warn .warning {
+    background-color: var(--color-bg-warning);
+    border-color: var(--color-border-warning);
+    color: var(--color-text-warning);
+  }
 }
 @-moz-document domain("render.oss.navercorp.com"), domain("media.oss.navercorp.com") {
   /* begin render.githubusercontent.com rules */
