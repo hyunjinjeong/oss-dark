@@ -694,6 +694,7 @@
     border-bottom-color: var(--color-border-primary);
   }
   .table-list-bordered .table-list-cell:first-child {
+    border-top-color: transparent;
     border-left: 1px solid var(--color-border-primary);
   }
   .table-list-bordered .table-list-cell:last-child {
@@ -1098,10 +1099,6 @@
     color: var(--color-text-link);
     background-color: var(--color-topic-tag-bg);
   }
-  .repo-file-upload-progress .repo-file-upload-meter, .topic-tag-link:hover,
-  .delete-topic-button:hover, .topic-tag-contrast .delete-topic-link:hover {
-    background: #273045;
-  }
   .delete-topic-button, .delete-topic-link {
     border-left: 1px solid var(--color-border-primary);
   }
@@ -1152,5 +1149,324 @@
   }
   .Box-row .text-gray .mr-1 svg {
     fill: var(--color-text-secondary);
+  }
+  /* Repo page */
+  .overall-summary {
+    border: 1px solid var(--color-border-primary);
+    border-bottom: 0;
+  }
+  .repository-lang-stats-graph {
+    border: 1px solid var(--color-border-primary);
+  }
+  .numbers-summary .octicon {
+    color: var(--color-text-secondary);
+  }
+  .numbers-summary li>.nolink, .numbers-summary li>a {
+    color: var(--color-text-tertiary);
+  }
+  .file-wrap {
+    border: 1px solid var(--color-border-primary);
+    border-top: 0;
+  }
+  .file-wrap > .files {
+    background: var(--color-bg-primary);
+  }
+  table.files td.icon, table.files td.icon .octicon-file-directory {
+    color: rgb(79, 140, 201);
+  }
+  table.files td {
+    border-top: 1px solid var(--color-border-primary);
+  }
+  table.files td.age {
+    color: var(--color-text-tertiary) !important;
+  }
+  table.files td.message {
+    color: var(--color-text-secondary) !important;
+  }
+  table.files td.content, table.files td.content a {
+    color: var(--color-text-primary) !important;
+  }
+  .repository-lang-stats ol.repository-lang-stats-numbers li>a,
+  .repository-lang-stats ol.repository-lang-stats-numbers li>span {
+    color: var(--color-text-secondary);
+  }
+  .repository-lang-stats ol.repository-lang-stats-numbers li .lang {
+    color: var(--color-text-primary);
+  }
+  form > file-attachment.blankslate {
+    background: none !important;
+    border: 1px solid var(--color-border-primary);
+  }
+  .repo-file-upload-target.dragover .repo-file-upload-outline {
+    border: 6px dashed var(--color-border-primary);
+  }
+  .repo-file-upload-file-wrap {
+    border: 1px solid var(--color-border-primary);
+  }
+  .repo-file-upload-file-wrap .icon .octicon, .repo-file-upload-file-wrap .name,
+  .repo-file-upload-file-wrap .actions, .repo-file-upload-file-wrap .remove-file {
+    color: var(--ghd-body-color);
+  }
+  .repo-file-upload-file-wrap .remove-file:hover {
+    color: var(--color-text-link) !important;
+  }
+  .topic-tag-link:hover, .delete-topic-button:hover,
+  .topic-tag-contrast .delete-topic-link:hover {
+    background: none !important;
+  }
+  .js-upload-manifest-file-container {
+    margin-bottom: 16px;
+  }
+  .repo-file-upload-progress .repo-file-upload-meter {
+    background: #273045 !important;
+  }
+  .repo-file-upload-progress {
+    background: var(--ghd-bg-color);
+    color: var(--ghd-body-color);
+    box-shadow: inset 0 0 0 1px var(--color-border-primary);
+  }
+  .is-failed .repo-file-upload-errors, .is-bad-file .repo-file-upload-errors,
+  .is-too-big .repo-file-upload-errors, .is-too-many .repo-file-upload-errors,
+  .is-hidden-file .repo-file-upload-errors, .is-empty .repo-file-upload-errors {
+    background-color: var(--color-bg-primary);
+    border-top: 1px solid var(--color-border-primary);
+  }
+  .page-responsive .repohead, .page-responsive .pagehead,
+  .repohead.bg-gray-light, .pagehead.bg-gray-light, main > .bg-gray-light,
+  .application-main > .bg-gray-light {
+    background: rgba(20, 20, 20, .4) !important;
+  }
+  body.enterprise .repohead.experiment-repo-nav {
+    background: rgba(20, 20, 20, .4) !important;
+  }
+  .reponav-item {
+    color: var(--color-text-secondary);
+  }
+  .reponav-item .Counter {
+    background-color: var(--color-counter-bg);
+    color: var(--color-text-secondary);
+  }
+  .js-navigation-item.navigation-focus, .list-browser-item.navigation-focus,
+  .js-details-container.navigation-focus,
+  .js-details-container.navigation-focus:nth-child(2n), .team-grid .team-members,
+  .tree-browser tr.navigation-focus td,
+  .issues-listing .table-list-issues .selectable:hover,
+  .issues-listing .table-list-issues .navigation-focus, .setup-plans tr.selected,
+  .notifications .navigation-focus, .sidebar-module ul ul li a:hover,
+  .no-results, #gollum-editor-help-list, .owner-select-target,
+  .divider .blob-code div.highlight,
+  .oauth-org-access-details .boxed-group-list > li.on:hover, pre div:hover,
+  .summary-stats li a:hover, .pinned-repos-selection-list-item.selected,
+  .Box-body-row--highlight.navigation-focus, .Box-body-row--highlight:hover,
+  .js-current .standalone a, .Box-row--focus-gray.navigation-focus,
+  .team-listing .is-open.root-team, .Box-row--hover-gray:hover,
+  .label-select-menu .select-menu-item.navigation-focus,
+  .label-select-menu .select-menu-item:focus,
+  .label-select-menu .select-menu-item:hover, table.files tr.navigation-focus td,
+  table.files tr[aria-selected=true] td {
+    background-color: #222 !important;
+  }
+  .commit-desc pre {
+    border: 0;
+    color: var(--color-text-secondary);
+  }
+  .full-commit .btn-outline, .full-commit .btn-outline:disabled {
+    background-color: var(--color-btn-bg);
+  }
+  .full-commit .branches-list li {
+    color: var(--color-text-secondary);
+  }
+  .full-commit .commit-meta {
+    background: var(--color-bg-primary);
+    border-top: 1px solid var(--color-border-primary, var(--color-fade-black-15));
+  }
+  .file-header {
+    border-bottom: 1px solid var(--color-border-primary);
+  }
+  .commit-sha {
+    border: 1px solid var(--color-border-secondary);
+  }
+  .thread-subscription-status {
+    color: var(--color-text-secondary);
+    border: 1px solid var(--color-border-primary);
+    background-color: inherit;
+  }
+  .full-commit .sha-block {
+    color: var(--color-text-secondary);
+  }
+  .full-commit .sha-block>.sha {
+    color: var(--color-text-secondary);
+  }
+  .full-commit .sha-block>a:hover {
+    border-bottom: 1px solid var(--color-auto-gray-7);
+  }
+  .breadcrumb {
+    color: var(--color-text-secondary);
+  }
+  .breadcrumb strong.final-path {
+    color: var(--color-text-primary);
+  }
+  .commit-group-title {
+    color: var(--color-timeline-text);
+  }
+  .commit-group-title .octicon-git-commit {
+    color: var(--color-icon-secondary);
+    background: none;
+  }
+  .commits-listing:before {
+    background-color: var(--color-border-secondary);
+  }
+  .commits-list-item .commit-desc pre {
+    color: var(--color-text-secondary);
+  }
+  .TimelineItem--condensed .TimelineItem-badge {
+    color: var(--color-icon-secondary);
+  }
+  .TimelineItem::before {
+    background-color: var(--color-border-secondary);
+  }
+  .timeline-comment.current-user .timeline-comment-header {
+    background-color: var(--color-box-bg-info);
+    border-bottom-color: var(--color-box-border-info);
+  }
+  .timeline-comment.current-user .timeline-comment-label {
+    border-color: var(--color-box-border-info);
+  }
+  .TimelineItem-body {
+    color: var(--color-timeline-text);
+  }
+  .timeline-comment.current-user {
+    border-color: var(--color-box-border-info);
+  }
+  .commit-branches {
+    color: var(--color-text-secondary);
+  }
+  .timeline-comment--caret.current-user::after,
+  .timeline-comment--caret.current-user::before {
+    border-color: transparent;
+  }
+  .timeline-comment--caret.current-user::before {
+    border-right-color: var(--color-current-user-tip-border);
+  }
+  .timeline-comment.current-user .previewable-comment-form .comment-form-head.tabnav {
+    color: var(--color-box-border-info);
+    background-color: var(--color-box-bg-info);
+    border-bottom-color: var(--color-box-border-info);
+  }
+  .dropdown-header {
+    color: var(--color-text-secondary);
+  }
+  .reponav-item:focus, .reponav-item:hover {
+    color: var(--color-underlinenav-text-hover);
+  }
+  .repohead h1 {
+    color: var(--color-text-secondary);
+  }
+  .repohead h1 .octicon {
+    color: var(--color-text-secondary);
+  }
+  .repository-content .subnav-links {
+    background: none;
+  }
+  .repository-content .subnav-links > .subnav-item {
+    background-color: var(--color-bg-primary);
+  }
+  .repository-content .subnav-links > .subnav-item:hover,
+  .repository-content .subnav-links > .subnav-item:focus {
+    text-decoration: none;
+    background-color: var(--color-bg-tertiary);
+  }
+  .repository-content .subnav-links > .subnav-item.selected {
+    background-color: rgb(79, 140, 201);
+  }
+  .Box-row:first-of-type {
+    border-top-color: transparent;
+  }
+  .new-label {
+    background-color: var(--color-bg-tertiary);
+    border: 1px solid var(--color-border-primary);
+  }
+  .composer.composer-responsive .timeline-comment {
+    border: 1px solid var(--color-border-primary);
+  }
+  .new-discussion-timeline .composer .comment-form-head.tabnav {
+    background-color: var(--color-bg-primary);
+  }
+  .preview-selected .tabnav--responsive {
+    border-color: var(--color-border-primary);
+  }
+  .discussion-sidebar-item {
+    color: var(--color-text-secondary);
+  }
+  .discussion-sidebar-item+.discussion-sidebar-item {
+    border-top: 1px solid var(--color-border-secondary);
+  }
+  .select-menu-tabs {
+    border-bottom: 1px solid var(--color-select-menu-border-secondary);
+  }
+  .select-menu-tabs a, .select-menu-tabs .select-menu-tab-nav {
+    color: var(--color-text-tertiary);
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid transparent;
+  }
+  .select-menu-tabs a:hover, .select-menu-tabs .select-menu-tab-nav:hover {
+    color: var(--color-text-primary);
+  }
+  .select-menu-tabs .select-menu-tab-nav, .select-menu-tabs a {
+    background-color: transparent;
+  }
+  .select-menu-tabs a[aria-selected=true], .select-menu-tabs a.selected,
+  .select-menu-tabs .select-menu-tab-nav[aria-selected=true],
+  .select-menu-tabs .select-menu-tab-nav.selected {
+    color: var(--color-text-primary);
+    background-color: var(--color-bg-overlay);
+    border-color: var(--color-select-menu-border-secondary);
+    border-bottom-color: var(--color-bg-overlay);
+  }
+  .discussion-sidebar-heading {
+    color: var(--color-text-secondary);
+  }
+  .gh-header-number {
+    color: var(--color-text-tertiary);
+  }
+  .gh-header-meta {
+    color: var(--color-text-secondary);
+    border-bottom: 1px solid var(--color-border-primary);
+  }
+  .TimelineItem-badge {
+    color: var(--color-icon-secondary);
+    background-color: #383838;
+    border: 2px solid var(--color-bg-canvas);
+  }
+  .gh-header .gh-header-sticky.is-stuck+.gh-header-shadow {
+    background-color: var(--color-bg-primary);
+    border-bottom: 1px solid var(--color-border-primary);
+  }
+  details-dialog div.pr-3, details-dialog ins p, details-dialog del p,
+  details-dialog div.pr-3 summary.btn-link.select-menu-button.no-underline.text-gray {
+    color: var(--color-text-primary) !important;
+  }
+  .prose-diff .markdown-body>ins {
+    box-shadow: inset 4px 0 0 var(--color-diff-addition-border);
+  }
+  .prose-diff .markdown-body>del {
+    box-shadow: inset 4px 0 0 var(--color-diff-deletion-border);
+  }
+  .menu-item-danger, .menu-item-danger.selected {
+    color: var(--color-text-danger) !important;
+  }
+  .TimelineItem-break {
+    border-top: 4px solid var(--color-border-primary);
+  }
+  .table-list-milestones .stat-label {
+    color: var(--color-text-secondary);
+  }
+  .progress-bar-inline .progress-bar {
+    border: 1px solid var(--color-border-primary);
+  }
+  .application-main .repository-content .blankslate {
+    background-color: var(--color-bg-primary) !important;
+    border: 1px solid var(--color-border-primary);
   }
 }

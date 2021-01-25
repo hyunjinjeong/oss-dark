@@ -94,6 +94,9 @@
   body.zh_logged_in .disabled {
     background-color: transparent;
   }
+  .zh-repo-switcher .zh-repo-switcher-btn {
+    border: 0;
+  }
   /* move expanded zenhub board toolbar when octotree exists
    * see https://github.com/buunguyen/octotree/issues/242 */
   html.octotree:not(.octotree-show) .zhc-board--is-fullscreen .zhc-menu-bar {
