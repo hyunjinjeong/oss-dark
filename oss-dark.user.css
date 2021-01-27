@@ -21048,10 +21048,13 @@
     box-shadow: var(--color-state-focus-shadow);
   }
   .gBTAoi:disabled {
-    color: hsla(0, 0%, 100%, .3) !important;
+    color: hsla(0, 0%, 100%, .3);
+    background-color: var(--color-btn-bg);
+    border: 1px solid var(--color-btn-border);
   }
   .gBTAoi:disabled:hover {
     background-color: var(--color-btn-bg);
+    border: 1px solid var(--color-btn-border);
   }
 }
 @-moz-document domain("gist.oss.navercorp.com") {
