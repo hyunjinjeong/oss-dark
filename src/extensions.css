@@ -228,6 +228,12 @@
   body.zh_logged_in .zhc-selection-list__list-container--items-underlined .zhc-selection-item--is-active {
     border-bottom-color: #343434;
   }
+  .zhc-selection-list__list-container--items-underlined .zhc-selection-item--is-active:first-child {
+    border-top-color: #343434;
+  }
+  .zhc-selection-list__list-container--items-underlined .zhc-selection-item {
+    border-bottom-color: #343434;
+  }
   /* Gitako custom */
   .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .header .meta-bar {
     background: var(--color-bg-primary);
