@@ -1827,4 +1827,7 @@
   #network > div {
     color: var(--color-text-tertiary);
   }
+  #files_bucket > div.commit.full-commit.prh-commit.px-2.pt-2 > div.BtnGroup.float-right > button > svg {
+    color: inherit;
+  }
 }
