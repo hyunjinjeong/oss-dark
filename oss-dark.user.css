@@ -26733,6 +26733,10 @@
     text-decoration: none;
     background: var(--color-state-selected-primary-bg);
   }
+  /* Fix table.files td.message a */
+  table.files td.message a, table.files td.message a:hover {
+    color: var(--color-text-link);
+  }
 }
 @-moz-document domain("render.oss.navercorp.com"), domain("media.oss.navercorp.com") {
   /* begin render.githubusercontent.com rules */
