@@ -255,4 +255,32 @@
   .gitako-ready.shrink-github-header .js-header-wrapper {
     background: inherit;
   }
+  .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .header .meta-bar .branch-name {
+    color: #9daccc;
+    background: #182030;
+    border: 1px solid #246;
+  }
+  .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .description {
+    border-top: 1px solid var(--color-border-overlay);
+  }
+  .gitako-side-bar-content .description p {
+    color: var(--color-text-secondary);
+  }
+  .gitako-side-bar .gitako-side-bar-body .gitako-settings-bar .access-token-input-control .access-token-input {
+    color: var(--color-text-primary);
+    background-color: var(--color-input-bg);
+    border-color: var(--color-border-primary);
+    box-shadow: none;
+  }
+  .gitako-side-bar .gitako-side-bar-body .gitako-settings-bar .access-token-input-control .access-token-input:focus {
+    border-color: var(--color-state-focus-border);
+    outline: none;
+    box-shadow: var(--color-state-focus-shadow);
+  }
+  .gBTAoi:disabled {
+    color: hsla(0, 0%, 100%, .3) !important;
+  }
+  .gBTAoi:disabled:hover {
+    background-color: var(--color-btn-bg);
+  }
 }
