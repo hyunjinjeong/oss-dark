@@ -152,4 +152,103 @@
   .zhc-dependency {
     border-color: #343434;
   }
+  /* Gitako custom */
+  .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .header .meta-bar {
+    background: var(--color-bg-primary);
+  }
+  .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .header .meta-bar .user-and-repo a {
+    color: var(--color-text-link);
+  }
+  .gitako-side-bar .gitako-side-bar-body {
+    background: var(--color-bg-secondary);
+    border-left: 1px solid var(--color-border-overlay);
+  }
+  .iCMHSR::after {
+    color: var(--color-text-secondary);
+  }
+  .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .header .close-side-bar-button-position .close-side-bar-button .action-icon {
+    color: var(--color-text-secondary);
+  }
+  .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .header .close-side-bar-button-position .close-side-bar-button .action-icon:hover {
+    color: var(--color-text-primary);
+  }
+  .gitako-side-bar .gitako-side-bar-body .octicon {
+    color: var(--color-text-secondary);
+  }
+  .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .file-explorer .search-input-wrapper .search-input {
+    border-color: var(--color-border-overlay);
+    color: var(--color-text-primary);
+    background: var(--color-bg-canvas);
+  }
+  .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .file-explorer .node-item {
+    border-bottom: 1px solid var(--color-border-secondary);
+    background: var(--color-bg-primary);
+  }
+  .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .file-explorer .node-item:not(:hover) {
+    background: var(--color-bg-primary);
+  }
+  .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .file-explorer .node-item.focused,
+  .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .file-explorer .node-item:hover {
+    background: var(--color-bg-tertiary);
+  }
+  .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .file-explorer .node-item:active {
+    background: var(--color-bg-secondary);
+  }
+  .gitako-side-bar .gitako-side-bar-body .gitako-settings-bar .header-row {
+    border-top: 1px solid var(--color-border-secondary);
+  }
+  .gitako-side-bar .gitako-side-bar-body .gitako-settings-bar {
+    background: var(--color-bg-tertiary);
+  }
+  .gitako-side-bar .gitako-side-bar-body .gitako-settings-bar .header-row .version {
+    color: var(--color-text-tertiary);
+  }
+  .gitako-side-bar .gitako-side-bar-body .gitako-settings-bar-title {
+    border-top: 1px solid var(--color-border-secondary);
+  }
+  .gitako-side-bar .gitako-side-bar-body .gitako-settings-bar-content .shadow-shelter {
+    background: var(--color-bg-tertiary);
+  }
+  .gitako-side-bar button {
+    background-color: var(--color-btn-bg);
+    color: var(--color-btn-text);
+    border: 1px solid var(--color-btn-border);
+    box-shadow: none;
+  }
+  .gitako-side-bar button:hover {
+    background-color: var(--color-btn-hover-bg);
+    color: var(--color-btn-text);
+    border: 1px solid var(--color-btn-hover-border);
+    box-shadow: none;
+  }
+  .gitako-side-bar button:active {
+    background-color: var(--color-btn-selected-bg);
+  }
+  .gitako-side-bar .gitako-side-bar-body .gitako-settings-bar .toggle-shortcut-input-control .toggle-shortcut-input {
+    color: var(--gitako-text-primary);
+    background-color: var(--color-input-bg);
+    border-color: var(--color-border-primary);
+    box-shadow: none;
+  }
+  .gitako-side-bar .gitako-side-bar-body .gitako-settings-bar .toggle-shortcut-input-control .toggle-shortcut-input:focus {
+    border-color: var(--color-state-focus-border);
+    outline: none;
+    box-shadow: var(--color-state-focus-shadow);
+  }
+  .gitako-side-bar .gitako-side-bar-body .gitako-settings-bar-content .settings-section .field select {
+    background-color: var(--color-btn-bg);
+    color: var(--color-btn-text);
+    border: 1px solid var(--color-btn-border);
+    box-shadow: none;
+  }
+  .gitako-side-bar .gitako-resize-handler {
+    background: var(--color-bg-tertiary);
+    border-right: 1px solid var(--color-border-tertiary);
+  }
+  .gitako-ready.shrink-github-header main>*:first-child {
+    box-shadow: none;
+  }
+  .gitako-ready.shrink-github-header .js-header-wrapper {
+    background: inherit;
+  }
 }

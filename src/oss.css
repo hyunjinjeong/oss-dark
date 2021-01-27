@@ -1841,19 +1841,37 @@
   .suggester li small {
     color: var(--color-text-secondary);
   }
-  .suggester li[aria-selected=true], .suggester li.navigation-focus, .suggester li:hover {
+  .suggester li[aria-selected=true], .suggester li.navigation-focus,
+  .suggester li:hover {
     color: var(--color-state-selected-primary-text);
     text-decoration: none;
     background: var(--color-state-selected-primary-bg);
   }
   /* Fix table.files td.message a */
-  table.files td.message a, table.files td.message a:hover, .commit .commit-title .issue-link, .commit .commit-title .issue-link:hover {
+  table.files td.message a, table.files td.message a:hover,
+  .commit .commit-title .issue-link, .commit .commit-title .issue-link:hover {
     color: var(--color-text-link);
   }
-  .full-commit .branches-list li.loading, .full-commit .branches-list li.pull-request {
-    color: var(--color-text-tertiary);
+  .full-commit .branches-list li.loading,
+  .full-commit .branches-list li.pull-request {
+    color: var(--color-text-secondary);
   }
   .branches-tag-list li:first-child {
     color: var(--color-text-secondary);
+  }
+  /* Newly created branch */
+  .RecentBranches-item {
+    color: var(--color-text-secondary);
+  }
+  .RecentBranches-item-link.css-truncate-target {
+    color: var(--color-text-primary);
+  }
+  .select-menu-new-item-form .octicon {
+    color: var(--color-text-primary);
+  }
+  .branch-infobar {
+    color: var(--color-text-primary);
+    background-color: var(--color-bg-secondary);
+    border-color: var(--color-border-primary);
   }
 }
