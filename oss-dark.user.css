@@ -20955,7 +20955,11 @@
     background: var(--color-bg-primary);
   }
   .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .file-explorer .node-item:not(:hover) {
+    color: var(--color-text-primary);
     background: var(--color-bg-primary);
+  }
+  .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .file-explorer .node-item:not(:hover) .node-item-label .prefix{
+    color: var(--color-text-tertiary)
   }
   .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .file-explorer .node-item.focused,
   .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .file-explorer .node-item:hover {
@@ -20995,7 +20999,7 @@
     background-color: var(--color-btn-selected-bg);
   }
   .gitako-side-bar .gitako-side-bar-body .gitako-settings-bar .toggle-shortcut-input-control .toggle-shortcut-input {
-    color: var(--gitako-text-primary);
+    color: var(--color-text-primary);
     background-color: var(--color-input-bg);
     border-color: var(--color-border-primary);
     box-shadow: none;
