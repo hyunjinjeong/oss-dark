@@ -26708,6 +26708,12 @@
     border-color: var(--color-border-warning);
     color: var(--color-text-warning);
   }
+  .network .current-repository {
+    background-color: inherit;
+  }
+  #network > div {
+    color: var(--color-text-tertiary);
+  }
 }
 @-moz-document domain("render.oss.navercorp.com"), domain("media.oss.navercorp.com") {
   /* begin render.githubusercontent.com rules */
