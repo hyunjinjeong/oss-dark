@@ -1847,7 +1847,13 @@
     background: var(--color-state-selected-primary-bg);
   }
   /* Fix table.files td.message a */
-  table.files td.message a, table.files td.message a:hover {
+  table.files td.message a, table.files td.message a:hover, .commit .commit-title .issue-link, .commit .commit-title .issue-link:hover {
     color: var(--color-text-link);
+  }
+  .full-commit .branches-list li.loading, .full-commit .branches-list li.pull-request {
+    color: var(--color-text-tertiary);
+  }
+  .branches-tag-list li:first-child {
+    color: var(--color-text-secondary);
   }
 }
