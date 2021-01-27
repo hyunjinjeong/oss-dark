@@ -1294,7 +1294,7 @@
     color: var(--color-text-primary);
   }
   .commit-group-title {
-    color: var(--color-timeline-text);
+    color: var(--color-text-primary);
   }
   .commit-group-title .octicon-git-commit {
     color: var(--color-icon-secondary);
@@ -1320,7 +1320,7 @@
     border-color: var(--color-box-border-info);
   }
   .TimelineItem-body {
-    color: var(--color-timeline-text);
+    color: var(--color-text-primary);
   }
   .timeline-comment.current-user {
     border-color: var(--color-box-border-info);
@@ -1873,5 +1873,10 @@
     color: var(--color-text-primary);
     background-color: var(--color-bg-secondary);
     border-color: var(--color-border-primary);
+  }
+  #partial-discussion-sidebar details > summary {
+    color: var(--color-text-link) !important;
+    background-color: inherit !important;
+    border-color: inherit !important;
   }
 }

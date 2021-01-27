@@ -20922,6 +20922,64 @@
   .zhc-dependency {
     border-color: #343434;
   }
+  body.zh_logged_in .zh-select-menu-header {
+    background-color: var(--color-bg-tertiary);
+  }
+  body.zh_logged_in .zh-select-menu-header .zh-select-menu-title {
+    color: var(--color-text-primary);
+  }
+  .zh-powered-by-zenhub {
+    color: var(--color-text-secondary);
+  }
+  #zh-repo-switcher-filter {
+    background-color: var(--color-bg-tertiary);
+  }
+  #zh-repo-switcher-filter:focus {
+    border-color: var(--color-state-focus-border);
+    outline: none;
+    box-shadow: var(--color-state-focus-shadow);
+  }
+  #zh-repo-header-container__breadcrumbs > span > span.zhc-breadcrumbs.zhc-breadcrumbs--extension-topbar > span > div > div.zhc-selection-list__body > div.zhc-selection-list__list-container.zhc-selection-list__list-container--items-underlined {
+    background-color: var(--color-bg-overlay);
+  }
+  #zh-repo-header-container__breadcrumbs > span > span.zhc-breadcrumbs.zhc-breadcrumbs--extension-topbar > span > div > div.zhc-selection-list__body {
+    border: 1px solid var(--color-border-overlay);
+  }
+  #zh-repo-header-container__breadcrumbs > span > span.zhc-breadcrumbs.zhc-breadcrumbs--extension-topbar > span > div > div.zhc-selection-list__body > div.zhc-selection-list__footer {
+    background-color: var(--color-bg-overlay);
+  }
+  .zhc-selection-list__header__text {
+    color: #c6c6c6;
+    text-shadow: #181818 0 1px 0;
+  }
+  .zhc-selection-item {
+    color: var(--color-text-primary);
+  }
+  .zhc-selection-list:not(.zhc-selection-list--has-search) .zhc-selection-list-item:hover:not(.zhc-selection-item--is-disabled),
+  .zhc-selection-list:not(.zhc-selection-list--has-search) .zhc-selectable-selection-item:hover:not(.zhc-selection-item--is-disabled) {
+    background-color: #242424;
+    border-color: #343434;
+  }
+  #zh-repo-header-container__breadcrumbs .zhc-selection-item {
+    border-bottom-color: var(--color-border-primary);
+  }
+  body.zh_logged_in .zhu-text-secondary {
+    color: var(--color-text-secondary) !important;
+  }
+  .zhc-selection-list--is-active .zhc-selection-list__body {
+    background-color: #181818;
+    border-color: #343434;
+    box-shadow: 0 3px 12px #000;
+  }
+  #partial-discussion-sidebar > div.discussion-sidebar-item.zh-pipeline-selector-container > div > div.zhc-sidebar-pipeline-selector__workspace > div.zhc-selection-list.zhc-selection-list--is-active.zhc-selection-list--has-search.zhc-selection-list--position-right > div.zhc-selection-list__body > div.zhc-selection-list__list-container.zhc-selection-list__list-container--items-underlined > div.zhc-selection-filter > div > input.zhc-selection-list__header__text:focus {
+    border-color: var(--color-state-focus-border);
+    outline: none;
+    box-shadow: var(--color-state-focus-shadow);
+  }
+  #zh-load-repos {
+    color: var(--color-btn-text);
+    background-color: rgb(24, 24, 24);
+  }
   /* Gitako custom */
   .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .header .meta-bar {
     background: var(--color-bg-primary);
@@ -26335,7 +26393,7 @@
     color: var(--color-text-primary);
   }
   .commit-group-title {
-    color: var(--color-timeline-text);
+    color: var(--color-text-primary);
   }
   .commit-group-title .octicon-git-commit {
     color: var(--color-icon-secondary);
@@ -26361,7 +26419,7 @@
     border-color: var(--color-box-border-info);
   }
   .TimelineItem-body {
-    color: var(--color-timeline-text);
+    color: var(--color-text-primary);
   }
   .timeline-comment.current-user {
     border-color: var(--color-box-border-info);
@@ -26911,6 +26969,11 @@
     color: var(--color-text-primary);
     background-color: var(--color-bg-secondary);
     border-color: var(--color-border-primary);
+  }
+  #partial-discussion-sidebar details > summary {
+    color: var(--color-text-link) !important;
+    background-color: inherit !important;
+    border-color: inherit !important;
   }
 }
 @-moz-document domain("render.oss.navercorp.com"), domain("media.oss.navercorp.com") {
