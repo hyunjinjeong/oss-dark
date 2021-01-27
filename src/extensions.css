@@ -616,4 +616,10 @@
     border: 1px solid var(--color-border-overlay);
     background-color: var(--color-bg-tertiary);
   }
+  .zhc-progress-bar--completed-story-points {
+    background-color: rgb(94, 96, 186);
+  }
+  .zhc-progress-bar--completed-issues {
+    background-color: rgb(0, 208, 144);
+  }
 }
