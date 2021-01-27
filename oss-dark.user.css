@@ -21007,6 +21007,17 @@
   .zhc-selection-list__list-container--items-underlined .zhc-selection-item--is-active:not(:first-child)::before, .zhc-selection-list__list-container--items-underlined .zhc-selection-item--is-active:not(:first-child)::after  {
     border-color: #343434 #343434 #343434;
   }
+  body.zh_logged_in .zhc-tooltip__content {
+    background-color: var(--color-bg-secondary);
+    color: var(--color-text-primary);
+    border: 1px solid var(--color-border-overlay);
+  }
+  body.zh_logged_in .zhc-shortcut-indicators, body.zh_logged_in .zhc-shortcuts-guide__nav-item {
+    color: var(--color-text-secondary);
+  }
+  body.zh_logged_in .zhc-shortcut-indicator {
+    background-color: var(--color-bg-tertiary);
+  }
   /* Gitako custom */
   .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .header .meta-bar {
     background: var(--color-bg-primary);
