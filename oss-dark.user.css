@@ -21047,12 +21047,13 @@
     outline: none;
     box-shadow: var(--color-state-focus-shadow);
   }
-  .gBTAoi:disabled {
+  .gitako-settings-bar > .gitako-settings-bar-content > div:nth-child(2) > div > div > button {
     color: hsla(0, 0%, 100%, .3) !important;
     background-color: var(--color-btn-bg) !important;
     border: 1px solid var(--color-btn-border) !important;
   }
-  .gBTAoi:disabled:hover {
+  .gitako-settings-bar > .gitako-settings-bar-content > div:nth-child(2) > div > div > button:hover {
+    color: hsla(0, 0%, 100%, .3) !important;
     background-color: var(--color-btn-bg) !important;
     border: 1px solid var(--color-btn-border) !important;
   }
