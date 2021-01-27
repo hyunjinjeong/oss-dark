@@ -1841,12 +1841,7 @@
   .suggester li small {
     color: var(--color-text-secondary);
   }
-  .suggester li:hover {
-    color: var(--color-state-selected-primary-text);
-    text-decoration: none;
-    background: var(--color-state-selected-primary-bg);
-  }
-  .suggester li[aria-selected=true], .suggester li.navigation-focus {
+  .suggester li[aria-selected=true], .suggester li.navigation-focus, .suggester li:hover {
     color: var(--color-state-selected-primary-text);
     text-decoration: none;
     background: var(--color-state-selected-primary-bg);
