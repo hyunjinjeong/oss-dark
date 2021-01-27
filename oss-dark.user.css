@@ -26717,6 +26717,22 @@
   #files_bucket > div.commit.full-commit.prh-commit.px-2.pt-2 > div.BtnGroup.float-right > button > svg {
     color: inherit;
   }
+  /* Fix suggestion styling */
+  .suggester {
+    border: 1px solid var(--color-border-overlay);
+    background: var(--color-bg-overlay);
+  }
+  .suggester li {
+    border-bottom: 1px solid var(--color-autocomplete-row-border);
+  }
+  .suggester li small {
+    color: var(--color-text-secondary);
+  }
+  .suggester li[aria-selected=true], .suggester li.navigation-focus {
+    color: var(--color-state-selected-primary-text);
+    text-decoration: none;
+    background: var(--color-state-selected-primary-bg);
+  }
 }
 @-moz-document domain("render.oss.navercorp.com"), domain("media.oss.navercorp.com") {
   /* begin render.githubusercontent.com rules */
