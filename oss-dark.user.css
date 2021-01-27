@@ -20990,12 +20990,12 @@
     background-color: var(--color-btn-selected-bg);
     transition: none;
   }
-  body.zh_logged_in .zhc-search__input:focus {
+  :not(.zhc-search--with-icon) > body.zh_logged_in .zhc-search__input:focus {
     border-color: var(--color-state-focus-border);
     outline: none;
     box-shadow: var(--color-state-focus-shadow);
   }
-  body.zh_logged_in .zhc-search--with-icon {
+  body.zh_logged_in .zhc-search--with-icon:focus {
     border-color: var(--color-state-focus-border);
     outline: none;
     box-shadow: var(--color-state-focus-shadow);
