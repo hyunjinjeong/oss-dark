@@ -21229,6 +21229,9 @@
   .zhc-dependency-type-dropdown__list__item {
     border-color: var(--color-border-primary);
   }
+  body.zh_logged_in .zhc-progress-bar {
+    background-color: #343434;
+  }
   .zhc-progress-bar--completed-story-points {
     background-color: rgb(94, 96, 186);
   }
