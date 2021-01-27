@@ -21147,6 +21147,60 @@
     background-color: #383838;
     color: var(--color-text-secondary);
   }
+  .zh-epic-creator-main-container {
+    background-color: var(--color-bg-secondary);
+  }
+  .zh-epic-creator-top {
+    background-color: var(--color-bg-primary);
+  }
+  body.zh_logged_in .zh-epic-creator-nav {
+    background-color: var(--color-bg-primary);
+  }
+  body.zh_logged_in .zh-epic-creator-tab {
+    color: var(--color-text-primary);
+  }
+  .zh-epic-creator-issue-list {
+    background-color: var(--color-bg-tertiary);
+    border-color: var(--color-border-primary);
+  }
+  .zh-epic-creator-placeholder-top-container {
+    background: var(--color-bg-tertiary);
+  }
+  body.zh_logged_in .zh-form-control, body.zh_logged_in .zh-form-control-small {
+    background-color: var(--color-bg-tertiary);
+  }
+  #zh-epic-creator-selection > div.zh-epic-creator-content > div.zh-epic-creator-comment > div > div > div > div {
+    border: none;
+  }
+  .zh-epic-creator-picker-container {
+    border-color: var(--color-border-primary);
+  }
+  .zh-board-menu-item .btn .octicon {
+    background: var(--color-bg-secondary);
+    border-color: var(--color-border-primary);
+  }
+  #zh-search-filter .search-query {
+    border-color: var(--color-border-primary);
+    background-color: var(--color-input-bg);
+  }
+  #zh-search-filter .zh-search-icon {
+    background: var(--color-bg-primary);
+    border: 1px solid var(--color-border-primary);
+  }
+  body.zh_logged_in .zh-epic-form-control, body.zh_logged_in .zh-epic-form-control-small {
+    background-color: var(--color-input-bg);
+  }
+  body.zh_logged_in .zh-epic-form-control:focus, body.zh_logged_in .zh-epic-form-control-small:focus {
+    border-color: var(--color-state-focus-border);
+    outline: none;
+    box-shadow: var(--color-state-focus-shadow);
+  }
+  .zh-epic-pipeline-selector.active .zh-epic-pipeline-selector-name {
+    color: var(--color-text-link);
+  }
+  .zh-epic-issue-list-item-lg {
+    border-color: var(--color-border-primary);
+  }
   /* Gitako custom */
   .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .header .meta-bar {
     background: var(--color-bg-primary);
