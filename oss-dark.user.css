@@ -21094,6 +21094,39 @@
   .zh-select-menu-modal-body .zh-issue-selector-message .zh-issue-transition-selection-container .zh-issue-transition-left {
     border-color: var(--color-border-primary);
   }
+  body.zh_logged_in .zhc-milestone-modal__info input, body.zh_logged_in .zhc-milestone-modal__info textarea {
+    background-color: var(--color-input-bg);
+  }
+  body.zh_logged_in .zhc-milestone-modal__info input:focus, body.zh_logged_in .zhc-milestone-modal__info textarea:focus {
+    border-color: var(--color-state-focus-border);
+    outline: none;
+    box-shadow: var(--color-state-focus-shadow);
+  }
+  body.zh_logged_in .CalendarMonthGrid, body.zh_logged_in .DayPickerNavigation_button__default, body.zh_logged_in .DayPickerNavigation_button__verticalDefault {
+    border: 1px solid var(--color-border-primary);
+  }
+  body.zh_logged_in .zhc-release-report-form__desc-textarea:focus, body.zh_logged_in .zhc-release-report-form__title-input:focus {
+    border-color: var(--color-state-focus-border);
+    outline: none;
+    box-shadow: var(--color-state-focus-shadow);
+  }
+  body.zh_logged_in .zhc-toast {
+    color: var(--color-text-tertiary);
+    background-color: var(--color-bg-primary);
+  }
+  body.zh_logged_in .zhc-toast--info-message, body.zh_logged_in .zhc-toast b {
+    color: var(--color-text-primary);
+  }
+  body.zh_logged_in .zhc-workspace-form-input__text-input:focus {
+    border-color: var(--color-state-focus-border);
+    outline: none;
+    box-shadow: var(--color-state-focus-shadow);
+  }
+  body.zh_logged_in .zhc-search-bar__input:focus {
+    border-color: var(--color-state-focus-border);
+    outline: none;
+    box-shadow: var(--color-state-focus-shadow);
+  }
   /* Gitako custom */
   .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .header .meta-bar {
     background: var(--color-bg-primary);
