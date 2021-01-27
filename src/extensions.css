@@ -224,7 +224,7 @@
     border-color: var(--color-state-focus-border);
     outline: none;
     box-shadow: var(--color-state-focus-shadow);
-  } 
+  }
   body > div.react-portal-container > div:nth-child(2) > div > div > div > div.zhc-selection-list__body > div.zhc-selection-list__footer > div > div.zhc-dropdown.zhc-org-dropdown > div > span.zhc-org-dropdown__org > span {
     color: var(--color-text-secondary);
   }
@@ -242,13 +242,16 @@
     color: var(--color-text-primary);
     border: 1px solid var(--color-border-overlay);
   }
-  body.zh_logged_in .zhc-shortcut-indicators, body.zh_logged_in .zhc-shortcuts-guide__nav-item {
+  body.zh_logged_in .zhc-shortcut-indicators,
+  body.zh_logged_in .zhc-shortcuts-guide__nav-item {
     color: var(--color-text-secondary);
   }
   body.zh_logged_in .zhc-shortcut-indicator {
     background-color: var(--color-bg-tertiary);
   }
-  body > div.react-portal-container > div:nth-child(2) > div > div > div > div.zhc-workspace-form__content > form > div.zhc-workspace-form__scrollable-section > div:nth-child(2) > div > div.zhc-workspace-form-input__container > input:focus, body > div.react-portal-container > div:nth-child(2) > div > div > div > div.zhc-workspace-form__content > form > div.zhc-workspace-form__scrollable-section > div:nth-child(3) > div > div.zhc-workspace-form-input__container > input:focus, body.zh_logged_in .zhc-workspace-switcher-search__input:focus {
+  body > div.react-portal-container > div:nth-child(2) > div > div > div > div.zhc-workspace-form__content > form > div.zhc-workspace-form__scrollable-section > div:nth-child(2) > div > div.zhc-workspace-form-input__container > input:focus,
+  body > div.react-portal-container > div:nth-child(2) > div > div > div > div.zhc-workspace-form__content > form > div.zhc-workspace-form__scrollable-section > div:nth-child(3) > div > div.zhc-workspace-form-input__container > input:focus,
+  body.zh_logged_in .zhc-workspace-switcher-search__input:focus {
     border-color: var(--color-state-focus-border);
     outline: none;
     box-shadow: var(--color-state-focus-shadow);
@@ -259,7 +262,8 @@
   body.zh_logged_in .zhu-color-text-secondary-dark {
     color: var(--color-text-secondary) !important;
   }
-  body.zh_logged_in .zhc-workspace-form-repo-item__description, body.zh_logged_in .zhc-workspace-form-repo-item__subtext {
+  body.zh_logged_in .zhc-workspace-form-repo-item__description,
+  body.zh_logged_in .zhc-workspace-form-repo-item__subtext {
     color: var(--color-text-tertiary);
   }
   body > div.react-portal-container > div:nth-child(3) > div > div > div > div.zhc-selection-list__body > div.zhc-selection-list__list-container.zhc-selection-list__list-container--items-underlined > div.zhc-selection-list__description {
@@ -268,7 +272,8 @@
   body > div.react-portal-container > div:nth-child(3) > div > div > div > div.zhc-selection-list__body > div.zhc-selection-list__footer > div > div.zhc-dropdown.zhc-org-dropdown > div > span.zhc-org-dropdown__org > span {
     color: var(--color-text-secondary);
   }
-  body.zh_logged_in .zhc-workspace-form__empty-subtext, body.zh_logged_in .zhc-workspace-switcher__x .zhc-svg-icon {
+  body.zh_logged_in .zhc-workspace-form__empty-subtext,
+  body.zh_logged_in .zhc-workspace-switcher__x .zhc-svg-icon {
     color: var(--color-text-tertiary);
   }
   body > div.react-portal-container > div:nth-child(3) > div > div > div > div.zhc-modal__body > div > div.zhc-merging-tool__body {
@@ -278,7 +283,7 @@
     border: 1px solid var(--color-border-primary);
   }
   .zhc-merging-tool__buttons {
-    background-color: var(--color-bg-tertiary)
+    background-color: var(--color-bg-tertiary);
   }
   .zhc-merging-tool-pipeline {
     background-color: var(--color-bg-tertiary);
@@ -299,18 +304,27 @@
     background-color: var(--color-bg-primary);
     border-color: var(--color-border-primary);
   }
-  body.zh_logged_in .zhc-pipeline-form__input, body.zh_logged_in .zhc-pipeline-form__text-area {
+  body.zh_logged_in .zhc-pipeline-form__input,
+  body.zh_logged_in .zhc-pipeline-form__text-area {
     background-color: var(--color-input-bg);
   }
-  body.zh_logged_in .zhc-pipeline-form__input:focus, body.zh_logged_in .zhc-pipeline-form__text-area:focus {
+  body.zh_logged_in .zhc-pipeline-form__input:focus,
+  body.zh_logged_in .zhc-pipeline-form__text-area:focus {
     border-color: var(--color-state-focus-border);
     outline: none;
     box-shadow: var(--color-state-focus-shadow);
   }
   .zhc-merging-tool-pipeline-card--all-issues .zhc-merging-tool-pipeline-card__body {
-    box-shadow: var(--color-bg-primary) 0px 8px 0px -4px, var(--color-border-primary) 0px 8px 0px -3px, var(--color-bg-primary) 0px 15px 0px -7px, var(--color-border-primary) 0px 15px 0px -6px;
+    box-shadow: var(--color-bg-primary) 0 8px 0 -4px,
+                    var(--color-border-primary) 0 8px 0 -3px,
+                    var(--color-bg-primary) 0 15px 0 -7px,
+                    var(--color-border-primary) 0 15px 0 -6px;
   }
-  body.zh_logged_in .zhc-new-issue-body__title-input:focus, body.zh_logged_in .zhc-edit-comment__file-upload:focus, body.zh_logged_in .zhc-edit-comment__preview:focus, body.zh_logged_in .zhc-edit-comment__textarea:focus, .select-menu-text-filter input:focus {
+  body.zh_logged_in .zhc-new-issue-body__title-input:focus,
+  body.zh_logged_in .zhc-edit-comment__file-upload:focus,
+  body.zh_logged_in .zhc-edit-comment__preview:focus,
+  body.zh_logged_in .zhc-edit-comment__textarea:focus,
+  .select-menu-text-filter input:focus {
     border-color: var(--color-state-focus-border);
     outline: none;
     box-shadow: var(--color-state-focus-shadow);
@@ -324,18 +338,23 @@
   .zh-select-menu-modal-body .zh-issue-selector-message .zh-issue-transition-selection-container .zh-issue-transition-left {
     border-color: var(--color-border-primary);
   }
-  body.zh_logged_in .zhc-milestone-modal__info input, body.zh_logged_in .zhc-milestone-modal__info textarea {
+  body.zh_logged_in .zhc-milestone-modal__info input,
+  body.zh_logged_in .zhc-milestone-modal__info textarea {
     background-color: var(--color-input-bg);
   }
-  body.zh_logged_in .zhc-milestone-modal__info input:focus, body.zh_logged_in .zhc-milestone-modal__info textarea:focus {
+  body.zh_logged_in .zhc-milestone-modal__info input:focus,
+  body.zh_logged_in .zhc-milestone-modal__info textarea:focus {
     border-color: var(--color-state-focus-border);
     outline: none;
     box-shadow: var(--color-state-focus-shadow);
   }
-  body.zh_logged_in .CalendarMonthGrid, body.zh_logged_in .DayPickerNavigation_button__default, body.zh_logged_in .DayPickerNavigation_button__verticalDefault {
+  body.zh_logged_in .CalendarMonthGrid,
+  body.zh_logged_in .DayPickerNavigation_button__default,
+  body.zh_logged_in .DayPickerNavigation_button__verticalDefault {
     border: 1px solid var(--color-border-primary);
   }
-  body.zh_logged_in .zhc-release-report-form__desc-textarea:focus, body.zh_logged_in .zhc-release-report-form__title-input:focus {
+  body.zh_logged_in .zhc-release-report-form__desc-textarea:focus,
+  body.zh_logged_in .zhc-release-report-form__title-input:focus {
     border-color: var(--color-state-focus-border);
     outline: none;
     box-shadow: var(--color-state-focus-shadow);
@@ -409,10 +428,12 @@
     background: var(--color-bg-primary);
     border: 1px solid var(--color-border-primary);
   }
-  body.zh_logged_in .zh-epic-form-control, body.zh_logged_in .zh-epic-form-control-small {
+  body.zh_logged_in .zh-epic-form-control,
+  body.zh_logged_in .zh-epic-form-control-small {
     background-color: var(--color-input-bg);
   }
-  body.zh_logged_in .zh-epic-form-control:focus, body.zh_logged_in .zh-epic-form-control-small:focus {
+  body.zh_logged_in .zh-epic-form-control:focus,
+  body.zh_logged_in .zh-epic-form-control-small:focus {
     border-color: var(--color-state-focus-border);
     outline: none;
     box-shadow: var(--color-state-focus-shadow);
@@ -420,7 +441,8 @@
   .zh-epic-pipeline-selector.active .zh-epic-pipeline-selector-name {
     color: var(--color-text-link);
   }
-  .zh-epic-issue-list-item-lg, .zh-epic-issue-list-item-md, .zh-epic-issue-list-item-sm {
+  .zh-epic-issue-list-item-lg, .zh-epic-issue-list-item-md,
+  .zh-epic-issue-list-item-sm {
     border-color: var(--color-border-primary);
   }
   .zh-board-menu-item .btn:hover .octicon {
