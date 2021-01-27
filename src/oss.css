@@ -586,11 +586,6 @@
   .project-columns, .project-header {
     background: none !important;
   }
-  .card-filter-autocomplete-dropdown .navigation-focus,
-  .card-filter-autocomplete-dropdown [aria-selected=true] {
-    color: var(--color-text-white) !important;
-    background-color: var(--color-auto-blue-5);
-  }
   .Counter--gray-light {
     color: var(--color-counter-secondary-text);
   }
@@ -1878,5 +1873,25 @@
     color: var(--color-text-link) !important;
     background-color: inherit !important;
     border-color: inherit !important;
+  }
+  .link-gray-dark:hover [class*=text] {
+    color: inherit !important;
+  }
+  .projects-comment-form .comment-form-head .toolbar-commenting {
+    border-top: 1px solid var(--color-border-primary);
+  }
+  .project-comment-body-hover .octicon-pencil, .project-comment-title-hover .octicon-pencil {
+    color: var(--color-text-secondary);
+  }
+  body > div.application-main.d-flex.flex-auto.flex-column > div > main > div.container-lg.clearfix.new-discussion-timeline.experiment-repo-nav.d-flex.flex-column.flex-auto.p-0 > div > div.position-relative.clearfix.d-flex.flex-column.flex-auto.overflow-auto.js-project-container > div.project-pane.js-project-pane.js-project-card-details-pane.border-left.border-bottom.position-relative.bottom-0.top-0.right-0.bg-white.overflow-auto.ws-normal.height-full.width-full.project-touch-scrolling {
+    background-color: var(--color-bg-tertiary) !important;
+  }
+  .project-full-screen .card-filter-input:focus {
+    border: 0;
+    box-shadow: none;
+  }
+  .card-filter-autocomplete-dropdown .navigation-focus, .card-filter-autocomplete-dropdown [aria-selected=true] {
+    color: var(--color-text-white) !important;
+    background-color: var(--color-auto-blue-5) !important;
   }
 }
