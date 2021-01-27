@@ -294,4 +294,8 @@
   body > div:nth-child(14) > div > div > div.gitako-resize-handler > div {
     color: var(--color-text-secondary);
   }
+  .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .loading-indicator-container {
+    border-top: 1px solid var(--color-border-primary);
+    color: var(--color-text-secondary);
+  }
 }
