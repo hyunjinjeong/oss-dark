@@ -616,13 +616,10 @@
     border: 1px solid var(--color-border-overlay);
     background-color: var(--color-bg-tertiary);
   }
-  body.zh_logged_in .zhc-progress-bar {
-    background-color: #343434;
-  }
   .zhc-progress-bar--completed-story-points {
-    background-color: rgb(94, 96, 186);
+    background-color: rgb(94, 96, 186) !important;
   }
   .zhc-progress-bar--completed-issues {
-    background-color: rgb(0, 208, 144);
+    background-color: rgb(0, 208, 144) !important;
   }
 }
