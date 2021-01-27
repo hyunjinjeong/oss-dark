@@ -490,6 +490,9 @@
   .zhc-pr-issue-connector__info::before {
     border-right-color: var(--color-border-primary);
   }
+  .zhc-pr-issue-connector__info::after {
+    border-right-color: var(--color-border-primary);
+  }
   .zhc-issue-item__title {
     color: var(--color-text-primary);
   }
