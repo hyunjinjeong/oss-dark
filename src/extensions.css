@@ -225,6 +225,14 @@
     outline: none;
     box-shadow: var(--color-state-focus-shadow);
   }
+  body.zh_logged_in .zhc-search--with-icon {
+    border-color: var(--color-state-focus-border);
+    outline: none;
+    box-shadow: var(--color-state-focus-shadow);
+  }
+  body > div.react-portal-container > div:nth-child(2) > div > div > div > div.zhc-selection-list__body > div.zhc-selection-list__footer > div > div.zhc-dropdown.zhc-org-dropdown > div > span.zhc-org-dropdown__org > span {
+    color: var(--color-text-secondary);
+  }
   body.zh_logged_in .zhc-selection-list__list-container--items-underlined .zhc-selection-item--is-active {
     border-bottom-color: #343434;
   }
@@ -353,6 +361,18 @@
     border-color: var(--color-state-focus-border);
     outline: none;
     box-shadow: var(--color-state-focus-shadow);
+  }
+  .zhc-invite-link-modal__sharing-link__link {
+    background: inherit;
+  }
+  .zhc-invite-link-modal__sharing-link__link:focus {
+    border-color: var(--color-state-focus-border);
+    outline: none;
+    box-shadow: var(--color-state-focus-shadow);
+  }
+  .zhc-sidebar .zhc-workspace-badge {
+    background-color: #383838;
+    color: var(--color-text-secondary);
   }
   /* Gitako custom */
   .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .header .meta-bar {
