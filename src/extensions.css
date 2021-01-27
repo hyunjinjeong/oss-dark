@@ -446,6 +446,10 @@
     background-color: var(--color-bg-primary);
     border: 1px solid var(--color-border-primary);
   }
+  body.zh_logged_in .zhc-banner {
+    background-color: var(--color-alert-warn-bg);
+    border-color: var(--color-alert-warn-border);
+  }
 }
   /* Gitako custom */
   .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .header .meta-bar {
