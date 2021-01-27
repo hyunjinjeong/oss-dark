@@ -20990,12 +20990,7 @@
     background-color: var(--color-btn-selected-bg);
     transition: none;
   }
-  body.zh_logged_in :not(.zhc-search--with-icon) > .zhc-search__input:focus {
-    border-color: var(--color-state-focus-border);
-    outline: none;
-    box-shadow: var(--color-state-focus-shadow);
-  }
-  body.zh_logged_in .zhc-search--with-icon:focus {
+  body.zh_logged_in .zhc-search__input:focus {
     border-color: var(--color-state-focus-border);
     outline: none;
     box-shadow: var(--color-state-focus-shadow);
@@ -21198,8 +21193,12 @@
   .zh-epic-pipeline-selector.active .zh-epic-pipeline-selector-name {
     color: var(--color-text-link);
   }
-  .zh-epic-issue-list-item-lg {
+  .zh-epic-issue-list-item-lg, .zh-epic-issue-list-item-md, .zh-epic-issue-list-item-sm {
     border-color: var(--color-border-primary);
+  }
+  .zh-board-menu-item .btn:hover .octicon {
+    background: var(--color-btn-hover-bg);
+    border-color: var(--color-btn-hover-border);
   }
   /* Gitako custom */
   .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .header .meta-bar {
