@@ -302,4 +302,9 @@
     border-top: 1px solid var(--color-border-primary);
     color: var(--color-text-secondary);
   }
+  .gitako-toggle-show-button-wrapper .gitako-toggle-show-button .octoface-icon {
+    border: 1px solid var(--color-border-primary);
+    background: var(--color-bg-secondary);
+    color: var(--color-icon-primary);
+  }
 }
