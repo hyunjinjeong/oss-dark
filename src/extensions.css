@@ -307,6 +307,20 @@
   .zhc-merging-tool-pipeline-card--all-issues .zhc-merging-tool-pipeline-card__body {
     box-shadow: var(--color-bg-primary) 0px 8px 0px -4px, var(--color-border-primary) 0px 8px 0px -3px, var(--color-bg-primary) 0px 15px 0px -7px, var(--color-border-primary) 0px 15px 0px -6px;
   }
+  body.zh_logged_in .zhc-new-issue-body__title-input:focus, body.zh_logged_in .zhc-edit-comment__file-upload:focus, body.zh_logged_in .zhc-edit-comment__preview:focus, body.zh_logged_in .zhc-edit-comment__textarea:focus, .select-menu-text-filter input:focus {
+    border-color: var(--color-state-focus-border);
+    outline: none;
+    box-shadow: var(--color-state-focus-shadow);
+  }
+  .select-menu-text-filter input {
+    background-color: var(--color-bg-tertiary);
+  }
+  body.zh_logged_in .zhc-breadcrumbs__copy {
+    color: var(--color-text-secondary);
+  }
+  .zh-select-menu-modal-body .zh-issue-selector-message .zh-issue-transition-selection-container .zh-issue-transition-left {
+    border-color: var(--color-border-primary);
+  }
   /* Gitako custom */
   .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .header .meta-bar {
     background: var(--color-bg-primary);
