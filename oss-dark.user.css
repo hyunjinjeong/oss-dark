@@ -21235,6 +21235,18 @@
   .zhc-progress-bar--completed-story-points {
     background-color: rgb(94, 96, 186) !important;
   }
+  .zhc-pr-issue-connector__info {
+    border-color: var(--color-border-primary);
+  }
+  .zhc-pr-issue-connector__info::before {
+    border-right-color: var(--color-border-primary);
+  }
+  .zhc-issue-item__title {
+    color: var(--color-text-primary);
+  }
+  .zhc-pr-issue-connector__issue__title a {
+    color: var(--color-text-primary);
+  }
   /* Gitako customs */
   .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .header .meta-bar {
     background: var(--color-bg-primary);
