@@ -1874,7 +1874,7 @@
     background-color: var(--color-bg-secondary);
     border-color: var(--color-border-primary);
   }
-  #partial-discussion-sidebar details > summary {
+  #partial-discussion-sidebar .lock-toggle-link:hover, #partial-discussion-sidebar > form > div > details > summary:hover {
     color: var(--color-text-link) !important;
     background-color: inherit !important;
     border-color: inherit !important;
