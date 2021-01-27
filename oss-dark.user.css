@@ -21038,6 +21038,48 @@
   body > div.react-portal-container > div:nth-child(3) > div > div > div > div.zhc-selection-list__body > div.zhc-selection-list__footer > div > div.zhc-dropdown.zhc-org-dropdown > div > span.zhc-org-dropdown__org > span {
     color: var(--color-text-secondary);
   }
+  body.zh_logged_in .zhc-workspace-form__empty-subtext, body.zh_logged_in .zhc-workspace-switcher__x .zhc-svg-icon {
+    color: var(--color-text-tertiary);
+  }
+  body > div.react-portal-container > div:nth-child(3) > div > div > div > div.zhc-modal__body > div > div.zhc-merging-tool__body {
+    background-color: var(--color-bg-tertiary);
+  }
+  body > div.react-portal-container > div:nth-child(3) > div > div > div {
+    border: 1px solid var(--color-border-primary);
+  }
+  .zhc-merging-tool__buttons {
+    background-color: var(--color-bg-tertiary)
+  }
+  .zhc-merging-tool-pipeline {
+    background-color: var(--color-bg-tertiary);
+    border-color: var(--color-border-primary);
+  }
+  .zhc-merging-tool-pipeline__header {
+    border-bottom: 1px solid var(--color-border-primary);
+  }
+  .zhc-merging-tool-pipeline-card__body {
+    background-color: var(--color-bg-primary);
+    border-color: var(--color-border-primary);
+  }
+  .zhc-merging-tool-pipeline-card__repo-name {
+    color: var(--color-text-primary);
+  }
+  .zhc-merging-tool-pipeline-card--all-issues .zhc-merging-tool-pipeline-card__issue-count {
+    color: var(--color-text-primary);
+    background-color: var(--color-bg-primary);
+    border-color: var(--color-border-primary);
+  }
+  body.zh_logged_in .zhc-pipeline-form__input, body.zh_logged_in .zhc-pipeline-form__text-area {
+    background-color: var(--color-input-bg);
+  }
+  body.zh_logged_in .zhc-pipeline-form__input:focus, body.zh_logged_in .zhc-pipeline-form__text-area:focus {
+    border-color: var(--color-state-focus-border);
+    outline: none;
+    box-shadow: var(--color-state-focus-shadow);
+  }
+  .zhc-merging-tool-pipeline-card--all-issues .zhc-merging-tool-pipeline-card__body {
+    box-shadow: var(--color-bg-primary) 0px 8px 0px -4px, var(--color-bg-tertiary) 0px 8px 0px -3px, var(--color-bg-primary) 0px 15px 0px -7px, var(--color-bg-tertiary) 0px 15px 0px -6px;
+  }
   /* Gitako custom */
   .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .header .meta-bar {
     background: var(--color-bg-primary);
