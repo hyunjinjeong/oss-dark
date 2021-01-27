@@ -427,6 +427,26 @@
     background: var(--color-btn-hover-bg);
     border-color: var(--color-btn-hover-border);
   }
+  .zh-epic-issue-container.TimelineItem > div {
+    border: 1px solid var(--color-border-primary);
+  }
+  .zhc-epic-pipeline-list--item__title {
+    color: var(--color-text-primary);
+  }
+  .zh-state-epic {
+    background-color: rgb(62, 75, 158);
+  }
+  .zhc-dependency-type-dropdown__control {
+    border-color: var(--color-border-primary);
+  }
+  .zhc-dependency-type-dropdown__list {
+    background-color: var(--color-bg-primary);
+  }
+  #discussion_bucket > div.col-9 > div > div.js-discussion.js-socket-channel.ml-6.pl-3 > div.zh-dependency-manager-container.TimelineItem > div > div > div.zhu-flex.zhc-add-dependency > div > div.zhu-flex.zhu-flex-cell.zhc-add-dependency__form__issues > div > div.zhu-flex.zhu-flex-cell.zhc-dependency-issue-selector__issues.zhc-selection-list.zhc-selection-list--items-underlined > div {
+    background-color: var(--color-bg-primary);
+    border: 1px solid var(--color-border-primary);
+  }
+}
   /* Gitako custom */
   .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .header .meta-bar {
     background: var(--color-bg-primary);
