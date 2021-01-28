@@ -499,6 +499,9 @@
   .zhc-pr-issue-connector__issue__title a {
     color: var(--color-text-primary);
   }
+  .zh-pr-workspace-settings {
+    border-top: 1px solid var(--color-border-primary);
+  }
   /* Gitako custom */
   .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .header .meta-bar {
     background: var(--color-bg-primary);
