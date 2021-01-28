@@ -1941,7 +1941,7 @@
     background-color: var(--color-btn-primary-counter-bg);
   }
   details-menu > form > button.menu-item-danger:hover {
-    color: var(--color-text-white);
+    color: var(--color-text-white) !important;
     background: var(--color-bg-danger-inverse);
   }
 }

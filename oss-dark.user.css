@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        OSS Dark
 @namespace   hyunjinjeong
-@version     1.0.8
+@version     1.0.9
 @homepageURL https://github.com/hyunjinjeong/oss-dark
 @updateURL   https://raw.githubusercontent.com/hyunjinjeong/oss-dark/master/oss-dark.user.css
 @license     BSD-2-Clause
@@ -27203,7 +27203,7 @@
     color: inherit;
   }
   details-menu > form > button.menu-item-danger:hover {
-    color: var(--color-text-white);
+    color: var(--color-text-white) !important;
     background: var(--color-bg-danger-inverse);
   }
   /* Fix suggestion styling */
