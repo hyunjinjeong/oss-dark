@@ -27265,6 +27265,9 @@
     color: var(--color-text-white) !important;
     background-color: var(--color-auto-blue-5) !important;
   }
+  .select-menu-item-text .description-inline {
+    color: var(--color-text-tertiary);
+  }
 }
 @-moz-document domain("render.oss.navercorp.com"), domain("media.oss.navercorp.com") {
   /* begin render.githubusercontent.com rules */
