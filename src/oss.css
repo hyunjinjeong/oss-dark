@@ -1936,4 +1936,8 @@
     filter: drop-shadow(-0.28em 0 0 var(--color-auto-blue-2));
     border-right-color: var(--color-auto-blue-4);
   }
+  #files_bucket > div.pr-toolbar.js-sticky.js-sticky-offset-scroll > div > div.float-right.pr-review-tools > div.diffbar-item.dropdown.js-reviews-container > details > summary > span.Counter.js-pending-review-comment-count {
+    color: inherit;
+    background-color: var(--color-btn-primary-counter-bg);
+  }
 }
