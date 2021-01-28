@@ -1900,4 +1900,24 @@
   .select-menu-item-text .description-inline {
     color: var(--color-text-tertiary);
   }
+  .is-pending .timeline-comment--caret:before {
+    border-right-color: var(--color-border-warning);
+  }
+  .is-pending .timeline-comment--caret::after {
+    border-right-color: var(--color-auto-yellow-0);
+  }
+  .is-pending .file-header, .is-pending .comment-form-head.tabnav {
+    background-color: var(--color-auto-yellow-0);
+  }
+  .is-pending .file, .is-pending .file-header, .is-pending .tabnav-tab.selected,
+  .is-pending .comment-form-head.tabnav {
+    border-color: var(--color-border-warning);
+  }
+  .review-summary-form-wrapper > form {
+    background-color: var(--color-bg-primary);
+  }
+  .Label--outline.bg-yellow-light {
+    color: #f8e3a1;
+    border-color: #d29922;
+  }
 }
