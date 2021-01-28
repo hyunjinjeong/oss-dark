@@ -1932,4 +1932,8 @@
   .timeline-comment--caret.current-user::after {
     border-right-color: var(--color-box-bg-info);
   }
+  :target .timeline-comment--caret::before {
+    filter: drop-shadow(-0.28em 0 0 var(--color-auto-blue-2));
+    border-right-color: var(--color-auto-blue-4);
+  }
 }
