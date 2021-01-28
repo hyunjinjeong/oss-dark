@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        OSS Dark
 @namespace   hyunjinjeong
-@version     1.0.5
+@version     1.0.6
 @homepageURL https://github.com/hyunjinjeong/oss-dark
 @updateURL   https://raw.githubusercontent.com/hyunjinjeong/oss-dark/master/oss-dark.user.css
 @license     BSD-2-Clause
@@ -27272,7 +27272,7 @@
     color: var(--color-text-tertiary);
   }
   .is-pending .timeline-comment--caret:before {
-    border-right-color: var(--color-border-warning);
+    border-right-color: rgb(187, 128, 9, 0.4)
   }
   .is-pending .timeline-comment--caret::after {
     border-right-color: var(--color-auto-yellow-0);
@@ -27281,7 +27281,7 @@
     background-color: var(--color-auto-yellow-0);
   }
   .is-pending .file, .is-pending .file-header, .is-pending .tabnav-tab.selected, .is-pending .comment-form-head.tabnav {
-    border-color: var(--color-border-warning);
+    border-color: rgb(187, 128, 9, 0.4)
   }
   .review-summary-form-wrapper > form {
     background-color: var(--color-bg-primary);

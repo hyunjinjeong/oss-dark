@@ -1901,7 +1901,7 @@
     color: var(--color-text-tertiary);
   }
   .is-pending .timeline-comment--caret:before {
-    border-right-color: #bb8009;
+    border-right-color: rgb(187, 128, 9, 0.4)
   }
   .is-pending .timeline-comment--caret::after {
     border-right-color: #341a00;
@@ -1911,7 +1911,7 @@
   }
   .is-pending .file, .is-pending .file-header, .is-pending .tabnav-tab.selected,
   .is-pending .comment-form-head.tabnav {
-    border-color: #bb8009;
+    border-color: rgba(187, 128, 9, 40%)
   }
   .review-summary-form-wrapper > form {
     background-color: var(--color-bg-primary);
