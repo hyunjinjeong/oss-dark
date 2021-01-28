@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        OSS Dark
 @namespace   hyunjinjeong
-@version     1.0.7
+@version     1.0.8
 @homepageURL https://github.com/hyunjinjeong/oss-dark
 @updateURL   https://raw.githubusercontent.com/hyunjinjeong/oss-dark/master/oss-dark.user.css
 @license     BSD-2-Clause
@@ -27201,6 +27201,10 @@
   }
   #files_bucket > div.commit.full-commit.prh-commit.px-2.pt-2 > div.BtnGroup.float-right > button > svg {
     color: inherit;
+  }
+  details-menu > form > button.menu-item-danger:hover {
+    color: var(--color-text-white);
+    background: var(--color-bg-danger-inverse);
   }
   /* Fix suggestion styling */
   .suggester {

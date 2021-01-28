@@ -1940,4 +1940,8 @@
     color: inherit;
     background-color: var(--color-btn-primary-counter-bg);
   }
+  details-menu > form > button.menu-item-danger:hover {
+    color: var(--color-text-white);
+    background: var(--color-bg-danger-inverse);
+  }
 }
