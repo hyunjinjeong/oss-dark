@@ -1901,17 +1901,17 @@
     color: var(--color-text-tertiary);
   }
   .is-pending .timeline-comment--caret:before {
-    border-right-color: var(--color-border-warning);
+    border-right-color: #bb8009;
   }
   .is-pending .timeline-comment--caret::after {
-    border-right-color: var(--color-auto-yellow-0);
+    border-right-color: #341a00;
   }
   .is-pending .file-header, .is-pending .comment-form-head.tabnav {
-    background-color: var(--color-auto-yellow-0);
+    background-color: #341a00;
   }
   .is-pending .file, .is-pending .file-header, .is-pending .tabnav-tab.selected,
   .is-pending .comment-form-head.tabnav {
-    border-color: var(--color-border-warning);
+    border-color: #bb8009;
   }
   .review-summary-form-wrapper > form {
     background-color: var(--color-bg-primary);
@@ -1919,5 +1919,17 @@
   .Label--outline.bg-yellow-light {
     color: #f8e3a1;
     border-color: #d29922;
+  }
+  .timeline-comment--caret:before {
+    border-right-color: var(--color-border-primary);
+  }
+  .timeline-comment--caret:after {
+    border-right-color: var(--color-bg-tertiary);
+  }
+  .timeline-comment--caret.current-user::before {
+    border-right-color: var(--color-box-bg-info);
+  }
+  .timeline-comment--caret.current-user::after {
+    border-right-color: var(--color-box-border-info);
   }
 }
