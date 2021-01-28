@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        OSS Dark
 @namespace   hyunjinjeong
-@version     1.0.3
+@version     1.0.4
 @homepageURL https://github.com/hyunjinjeong/oss-dark
 @updateURL   https://raw.githubusercontent.com/hyunjinjeong/oss-dark/master/oss-dark.user.css
 @license     BSD-2-Clause
@@ -27297,10 +27297,10 @@
     border-right-color: var(--color-bg-tertiary);
   }
   .timeline-comment--caret.current-user::before {
-    border-right-color: var(--color-box-bg-info);
+    border-right-color: var(--color-box-border-info);
   }
   .timeline-comment--caret.current-user::after {
-    border-right-color: var(--color-box-border-info);
+    border-right-color: var(--color-box-bg-info);
   }
 }
 @-moz-document domain("render.oss.navercorp.com"), domain("media.oss.navercorp.com") {

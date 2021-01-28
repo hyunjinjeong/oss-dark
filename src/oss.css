@@ -1927,9 +1927,9 @@
     border-right-color: var(--color-bg-tertiary);
   }
   .timeline-comment--caret.current-user::before {
-    border-right-color: var(--color-box-bg-info);
+    border-right-color: var(--color-box-border-info);
   }
   .timeline-comment--caret.current-user::after {
-    border-right-color: var(--color-box-border-info);
+    border-right-color: var(--color-box-bg-info);
   }
 }
