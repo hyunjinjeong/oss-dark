@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        OSS Dark
 @namespace   hyunjinjeong
-@version     1.0.9
+@version     1.0.10
 @homepageURL https://github.com/hyunjinjeong/oss-dark
 @updateURL   https://raw.githubusercontent.com/hyunjinjeong/oss-dark/master/oss-dark.user.css
 @license     BSD-2-Clause
@@ -27205,6 +27205,9 @@
   details-menu > form > button.menu-item-danger:hover {
     color: var(--color-text-white) !important;
     background: var(--color-bg-danger-inverse);
+  }
+  .branch-action-state-closed-dirty .branch-action-body:before, .branch-action-state-dirty .branch-action-body:before, .is-rebasing .branch-action-state-dirty-if-rebasing .branch-action-body:before {
+    border-right-color: var(--color-border-primary);
   }
   /* Fix suggestion styling */
   .suggester {
