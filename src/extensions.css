@@ -491,7 +491,7 @@
     border-right-color: var(--color-border-primary);
   }
   .zhc-pr-issue-connector__info::after {
-    border-right-color: var(--color-border-primary);
+    border-right-color: var(--color-bg-tertiary);
   }
   .zhc-issue-item__title {
     color: var(--color-text-primary);

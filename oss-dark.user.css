@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        OSS Dark
 @namespace   hyunjinjeong
-@version     1.0.10
+@version     1.0.11
 @homepageURL https://github.com/hyunjinjeong/oss-dark
 @updateURL   https://raw.githubusercontent.com/hyunjinjeong/oss-dark/master/oss-dark.user.css
 @license     BSD-2-Clause
@@ -21242,7 +21242,7 @@
     border-right-color: var(--color-border-primary);
   }
   .zhc-pr-issue-connector__info::after {
-    border-right-color: var(--color-border-primary);
+    border-right-color: var(--color-bg-tertiary);
   }
   .zhc-issue-item__title {
     color: var(--color-text-primary);
