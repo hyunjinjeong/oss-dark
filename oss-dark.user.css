@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        OSS Dark
 @namespace   hyunjinjeong
-@version     1.0.11
+@version     1.0.12
 @homepageURL https://github.com/hyunjinjeong/oss-dark
 @updateURL   https://raw.githubusercontent.com/hyunjinjeong/oss-dark/master/oss-dark.user.css
 @license     BSD-2-Clause
@@ -27202,13 +27202,6 @@
   #files_bucket > div.commit.full-commit.prh-commit.px-2.pt-2 > div.BtnGroup.float-right > button > svg {
     color: inherit;
   }
-  details-menu > form > button.menu-item-danger:hover {
-    color: var(--color-text-white) !important;
-    background: var(--color-bg-danger-inverse);
-  }
-  .branch-action-state-closed-dirty .branch-action-body:before, .branch-action-state-dirty .branch-action-body:before, .is-rebasing .branch-action-state-dirty-if-rebasing .branch-action-body:before {
-    border-right-color: var(--color-border-primary);
-  }
   /* Fix suggestion styling */
   .suggester {
     border: 1px solid var(--color-border-overlay);
@@ -27279,7 +27272,7 @@
     color: var(--color-text-tertiary);
   }
   .is-pending .timeline-comment--caret:before {
-    border-right-color: rgb(187, 128, 9, 0.4)
+    border-right-color: rgb(187, 128, 9, .4)
   }
   .is-pending .timeline-comment--caret::after {
     border-right-color: var(--color-auto-yellow-0);
@@ -27288,7 +27281,7 @@
     background-color: var(--color-auto-yellow-0);
   }
   .is-pending .file, .is-pending .file-header, .is-pending .tabnav-tab.selected, .is-pending .comment-form-head.tabnav {
-    border-color: rgb(187, 128, 9, 0.4)
+    border-color: rgb(187, 128, 9, .4)
   }
   .review-summary-form-wrapper > form {
     background-color: var(--color-bg-primary);
@@ -27316,6 +27309,18 @@
   #files_bucket > div.pr-toolbar.js-sticky.js-sticky-offset-scroll > div > div.float-right.pr-review-tools > div.diffbar-item.dropdown.js-reviews-container > details > summary > span.Counter.js-pending-review-comment-count {
     color: inherit;
     background-color: var(--color-btn-primary-counter-bg);
+  }
+  details-menu > form > button.menu-item-danger:hover {
+    color: var(--color-text-white) !important;
+    background: var(--color-bg-danger-inverse);
+  }
+  .branch-action-state-closed-dirty .branch-action-body:before,
+  .branch-action-state-dirty .branch-action-body:before,
+  .is-rebasing .branch-action-state-dirty-if-rebasing .branch-action-body:before {
+    border-right-color: var(--color-border-primary);
+  }
+  .timeline-comment-header-text code a {
+    color: var(--color-text-link);
   }
 }
 @-moz-document domain("render.oss.navercorp.com"), domain("media.oss.navercorp.com") {
