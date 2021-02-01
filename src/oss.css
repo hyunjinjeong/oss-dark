@@ -1952,4 +1952,13 @@
   .timeline-comment-header-text code a {
     color: var(--color-text-link);
   }
+  .calendar-graph.days-selected rect.day {
+    opacity: 1;
+  }
+  .Popover-message--bottom-left:before, .Popover-message--bottom-right:before, .Popover-message--bottom:before {
+    border-top-color: var(--color-border-primary);
+  }
+  .Popover-message--bottom-left:after, .Popover-message--bottom-right:after, .Popover-message--bottom:after {
+    border-top-color: var(--color-bg-tertiary);
+  }
 }

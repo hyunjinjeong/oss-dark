@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        OSS Dark
 @namespace   hyunjinjeong
-@version     1.0.12
+@version     1.0.13
 @homepageURL https://github.com/hyunjinjeong/oss-dark
 @updateURL   https://raw.githubusercontent.com/hyunjinjeong/oss-dark/master/oss-dark.user.css
 @license     BSD-2-Clause
@@ -27321,6 +27321,15 @@
   }
   .timeline-comment-header-text code a {
     color: var(--color-text-link);
+  }
+  .calendar-graph.days-selected rect.day {
+    opacity: 1;
+  }
+  .Popover-message--bottom-left:before, .Popover-message--bottom-right:before, .Popover-message--bottom:before {
+    border-top-color: var(--color-border-primary);
+  }
+  .Popover-message--bottom-left:after, .Popover-message--bottom-right:after, .Popover-message--bottom:after {
+    border-top-color: var(--color-bg-tertiary);
   }
 }
 @-moz-document domain("render.oss.navercorp.com"), domain("media.oss.navercorp.com") {
