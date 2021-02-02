@@ -1961,4 +1961,7 @@
   .Popover-message--bottom-left:after, .Popover-message--bottom-right:after, .Popover-message--bottom:after {
     border-top-color: var(--color-bg-tertiary);
   }
+  .traffic-graph-stats {
+    border-top: 1px solid var(--color-border-primary);
+  }
 }
