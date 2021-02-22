@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        OSS Dark
 @namespace   hyunjinjeong
-@version     1.0.14
+@version     1.0.15
 @homepageURL https://github.com/hyunjinjeong/oss-dark
 @updateURL   https://raw.githubusercontent.com/hyunjinjeong/oss-dark/master/oss-dark.user.css
 @license     BSD-2-Clause
@@ -21252,6 +21252,12 @@
   }
   .zh-pr-workspace-settings {
     border-top: 1px solid var(--color-border-primary);
+  }
+  .zhc-selection-list--issue-card-actions .zhc-selection-list__body .zhc-selection-list__list {
+    background: var(--color-bg-primary);
+  }
+  .zhc-selection-list--issue-card-actions .zhc-issue-card__actions__dependency-section {
+    border-bottom: 1px solid var(--color-border-primary);
   }
   /* Gitako customs */
   .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .header .meta-bar {
