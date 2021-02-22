@@ -508,6 +508,9 @@
   .zhc-selection-list--issue-card-actions .zhc-issue-card__actions__dependency-section {
     border-bottom: 1px solid var(--color-border-primary);
   }
+  .zhc-selection-list--issue-card-actions .zhc-issue-card__actions__quick-action-section {
+    border-top: 1px solid var(--color-border-primary);
+  }
   /* Gitako custom */
   .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .header .meta-bar {
     background: var(--color-bg-primary);
