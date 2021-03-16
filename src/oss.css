@@ -1964,4 +1964,18 @@
   .traffic-graph-stats {
     border-top: 1px solid var(--color-border-primary);
   }
+  .SelectMenu-filter {
+    border-top: 1px solid var(--color-border-primary);
+  }
+  .SelectMenu-tab {
+    color: var(--color-text-tertiary);
+  }
+  .SelectMenu-tab[aria-selected=true] {
+    color: var(--color-text-primary);
+    border-color: var(--color-border-primary) !important;
+    background-color: var(--color-bg-primary);
+  }
+  .SelectMenu-blankslate, .SelectMenu-loading, .SelectMenu-message {
+    background-color: var(--color-bg-primary);
+  }
 }
