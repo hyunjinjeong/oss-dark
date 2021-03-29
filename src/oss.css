@@ -2207,7 +2207,7 @@
   .SelectMenu-message {
     background-color: var(--color-bg-primary);
   }
-  details-menu .dropdown-menu {
+  .dropdown-menu {
     border-color: var(--color-border-primary);
   }
   .dropdown-menu:before {
