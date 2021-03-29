@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        OSS Dark
 @namespace   hyunjinjeong
-@version     1.0.17
+@version     1.1.0
 @homepageURL https://github.com/hyunjinjeong/oss-dark
 @updateURL   https://raw.githubusercontent.com/hyunjinjeong/oss-dark/master/oss-dark.user.css
 @license     BSD-2-Clause
@@ -25487,7 +25487,7 @@
   /* timeline icons */
   .discussion-item-icon {
     color: var(--color-icon-secondary);
-    background-color: var(--color-timeline-badge-bg);
+    background-color: #383838;
     border: 2px solid var(--color-bg-canvas);
   }
   .profile-timeline-month-heading {
@@ -27356,6 +27356,46 @@
   }
   .SelectMenu-blankslate, .SelectMenu-loading, .SelectMenu-message {
     background-color: var(--color-bg-primary);
+  }
+  details-menu .dropdown-menu {
+    border-color: var(--color-border-primary);
+  }
+  .dropdown-menu:before {
+    border-bottom-color: var(--color-border-primary);
+  }
+  .dropdown-menu::after {
+    border-bottom-color: var(--ghd-bg-color);
+  }
+  .BorderGrid-cell {
+    border: 1px solid var(--color-border-primary);
+  }
+  .notifications-list-item.notification-unread {
+    background-color: var(--color-bg-tertiary) !important;
+  }
+  .notifications-list-item:hover {
+    background-color: var(--color-bg-info) !important;
+    box-shadow: 2px 0 0 var(--color-auto-blue-5) inset;
+  }
+  .notifications-list-item.notification-archived,
+  .notifications-list-item.notification-read {
+    background-color: var(--color-bg-primary);
+  }
+  .notifications-list-item .notification-list-item-link {
+    color: var(--color-text-tertiary) !important;
+  }
+  .notifications-list-item:hover .notification-list-item-actions .btn {
+    color: var(--color-text-secondary) !important;
+    background-color: var(--color-bg-info) !important;
+    border: 0 !important;
+  }
+  .notifications-list-item:hover .notification-list-item-actions .btn:hover {
+    background-color: var(--color-notifications-button-hover-bg) !important;
+  }
+  .user-status-circle-badge {
+    background-color: var(--color-bg-primary);
+    border: 1px solid var(--color-border-primary);
+    border-radius: 2em;
+    box-shadow: var(--color-shadow-small);
   }
 }
 @-moz-document domain("render.oss.navercorp.com"), domain("media.oss.navercorp.com") {
