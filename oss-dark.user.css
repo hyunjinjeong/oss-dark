@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        OSS Dark
 @namespace   hyunjinjeong
-@version     1.1.1
+@version     1.1.2
 @homepageURL https://github.com/hyunjinjeong/oss-dark
 @updateURL   https://raw.githubusercontent.com/hyunjinjeong/oss-dark/master/oss-dark.user.css
 @license     BSD-2-Clause
@@ -32226,7 +32226,7 @@
     color: var(--color-text-primary);
   }
   .commit-message .issue-link {
-    color: var(--color-text-primary);
+    color: var(--color-text-link);
   }
   .Details-content--hidden pre.text-gray {
     border: none;

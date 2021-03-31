@@ -1944,7 +1944,7 @@
     color: var(--color-text-primary);
   }
   .commit-message .issue-link {
-    color: var(--color-text-primary);
+    color: var(--color-text-link);
   }
   .Details-content--hidden pre.text-gray {
     border: none;
