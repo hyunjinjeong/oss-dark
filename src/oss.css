@@ -2247,4 +2247,19 @@
     border-radius: 2em;
     box-shadow: var(--color-shadow-small);
   }
+  .SelectMenu-header {
+    border-bottom: 1px solid var(--color-border-primary);
+  }
+  .SelectMenu-filter {
+    border-bottom: 1px solid var(--color-border-primary);
+  }
+  .SelectMenu-tabs {
+    box-shadow: inset 0 -1px 0 var(--color-border-primary);
+  }
+  .SelectMenu-tab {
+    box-shadow: inset 0 -1px 0 var(--color-border-primary);
+  }
+  .SelectMenu-footer {
+    border-top: 1px solid var(--color-border-primary);
+  }
 }
