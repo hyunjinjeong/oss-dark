@@ -941,4 +941,72 @@
   .markdown-body .clippy-wrapper .clippy:active {
     background: var(--color-bg-secondary);
   }
+  .gitako-side-bar
+    .gitako-side-bar-body
+    .gitako-side-bar-content
+    .file-explorer
+    .search-input-wrapper
+    .actions
+    .toggle-mode:focus,
+  .gitako-side-bar
+    .gitako-side-bar-body
+    .gitako-side-bar-content
+    .file-explorer
+    .search-input-wrapper
+    .actions
+    .toggle-mode:hover {
+    background: var(--color-bg-secondary);
+  }
+  .gitako-side-bar
+    .gitako-side-bar-body
+    .gitako-side-bar-content
+    .file-explorer
+    .search-input-wrapper
+    .actions
+    .toggle-mode:active {
+    background: var(--color-bg-tertiary);
+  }
+  .gitako-side-bar
+    .gitako-side-bar-body
+    .gitako-side-bar-content
+    .file-explorer
+    .node-item
+    .go-to-button:hover,
+  .gitako-side-bar
+    .gitako-side-bar-body
+    .gitako-side-bar-content
+    .file-explorer
+    .node-item
+    .find-in-folder-button:hover {
+    background: var(--color-btn-hover-bg);
+  }
+  .gitako-side-bar
+    .gitako-side-bar-body
+    .gitako-side-bar-content
+    .file-explorer
+    .node-item
+    .go-to-button:active,
+  .gitako-side-bar
+    .gitako-side-bar-body
+    .gitako-side-bar-content
+    .file-explorer
+    .node-item
+    .find-in-folder-button:active {
+    background: var(--color-btn-focus-bg);
+  }
+  .gitako-side-bar mark {
+    background-color: var(--color-bg-warning);
+  }
+  .gitako-side-bar
+    .gitako-side-bar-body
+    .close-side-bar-button-position
+    .close-side-bar-button:hover {
+    background: var(--color-btn-hover-bg);
+  }
+  .gitako-side-bar
+    .gitako-side-bar-body
+    .close-side-bar-button-position
+    .close-side-bar-button:active {
+    background: var(--color-btn-focus-bg);
+  }
 }
