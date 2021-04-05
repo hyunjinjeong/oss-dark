@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        OSS Dark
 @namespace   hyunjinjeong
-@version     1.1.4
+@version     1.1.5
 @homepageURL https://github.com/hyunjinjeong/oss-dark
 @updateURL   https://raw.githubusercontent.com/hyunjinjeong/oss-dark/master/oss-dark.user.css
 @license     BSD-2-Clause
@@ -26077,6 +26077,27 @@
     color: var(--color-text-primary);
     border: 1px solid var(--color-border-overlay);
     background-color: var(--color-bg-tertiary);
+  }
+  .gitako-side-bar
+    .gitako-side-bar-body
+    .gitako-side-bar-content
+    .file-explorer
+    .search-input-wrapper
+    .actions
+    .toggle-mode {
+    border: 1px solid var(--color-border-primary);
+    background: var(--color-bg-primary);
+    color: var(--color-text-primary);
+  }
+  .markdown-body .clippy-wrapper .clippy {
+    border: 1px solid var(--color-border-tertiary);
+    background: var(--color-bg-tertiary);
+  }
+  .markdown-body .clippy-wrapper .clippy:hover {
+    background: var(--color-bg-secondary);
+  }
+  .markdown-body .clippy-wrapper .clippy:active {
+    background: var(--color-bg-secondary);
   }
 }
 @-moz-document domain("gist.oss.navercorp.com") {
